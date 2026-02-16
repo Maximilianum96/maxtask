@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaxTask</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #f5f5f7;
+      --card: #ffffff;
+      --accent: #4f46e5;
+      --accent-hover: #4338ca;
+      --text: #1e1e2e;
+      --text-secondary: #6b7280;
+      --border: #e5e7eb;
+      --danger: #ef4444;
+      --danger-hover: #dc2626;
+      --done: #10b981;
+      --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
+      --shadow-lg: 0 4px 12px rgba(0,0,0,0.1);
+      --radius: 12px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 40px 16px;
+      line-height: 1.5;
+    }
+
+    .app {
+      width: 100%;
+      max-width: 520px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: var(--text);
+    }
+
+    header p {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin-top: 4px;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .input-row input {
+      flex: 1;
+      padding: 12px 16px;
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 1rem;
+      font-family: inherit;
+      background: var(--card);
+      color: var(--text);
+      transition: border-color 0.2s;
+      outline: none;
+    }
+
+    .input-row input:focus {
+      border-color: var(--accent);
+    }
+
+    .input-row input::placeholder {
+      color: var(--text-secondary);
+    }
+
+    .input-row button {
+      padding: 12px 20px;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+      white-space: nowrap;
+    }
+
+    .input-row button:hover {
+      background: var(--accent-hover);
+    }
+
+    .input-row button:active {
+      transform: scale(0.97);
+    }
+
+    .filters {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 16px;
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 4px;
+      box-shadow: var(--shadow);
+    }
+
+    .filters button {
+      flex: 1;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      background: transparent;
+      color: var(--text-secondary);
+      transition: all 0.2s;
+    }
+
+    .filters button.active {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .filters button:not(.active):hover {
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .task-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .task-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 16px;
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      transition: box-shadow 0.2s, transform 0.2s, opacity 0.3s;
+      animation: slideIn 0.25s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .task-item:hover {
+      box-shadow: var(--shadow-lg);
+    }
+
+    .task-item .checkbox {
+      width: 22px;
+      height: 22px;
+      border: 2px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: all 0.2s;
+    }
+
+    .task-item .checkbox:hover {
+      border-color: var(--accent);
+    }
+
+    .task-item.done .checkbox {
+      background: var(--done);
+      border-color: var(--done);
+    }
+
+    .task-item .checkbox svg {
+      width: 14px;
+      height: 14px;
+      stroke: #fff;
+      stroke-width: 2.5;
+      fill: none;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .task-item.done .checkbox svg {
+      opacity: 1;
+    }
+
+    .task-item .task-text {
+      flex: 1;
+      font-size: 0.95rem;
+      transition: color 0.2s;
+      word-break: break-word;
+    }
+
+    .task-item.done .task-text {
+      text-decoration: line-through;
+      color: var(--text-secondary);
+    }
+
+    .task-item .task-text.editing {
+      text-decoration: none !important;
+      color: var(--text) !important;
+      outline: none;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 2px;
+    }
+
+    .task-item .delete-btn {
+      width: 28px;
+      height: 28px;
+      border: none;
+      background: transparent;
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: all 0.2s;
+      flex-shrink: 0;
+    }
+
+    .task-item:hover .delete-btn {
+      opacity: 1;
+    }
+
+    .delete-btn:hover {
+      background: #fef2f2;
+    }
+
+    .delete-btn svg {
+      width: 16px;
+      height: 16px;
+      stroke: var(--danger);
+      stroke-width: 2;
+      fill: none;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 48px 16px;
+      color: var(--text-secondary);
+    }
+
+    .empty-state .icon {
+      font-size: 2.5rem;
+      margin-bottom: 12px;
+      opacity: 0.5;
+    }
+
+    .empty-state p {
+      font-size: 0.95rem;
+    }
+
+    .stats {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>MaxTask</h1>
+      <p>Stay organized. Get things done.</p>
+    </header>
+
+    <div class="input-row">
+      <input type="text" id="taskInput" placeholder="What needs to be done?" autofocus>
+      <button id="addBtn">Add</button>
+    </div>
+
+    <div class="filters">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="active">Active</button>
+      <button data-filter="done">Done</button>
+    </div>
+
+    <div class="task-list" id="taskList"></div>
+    <div class="stats" id="stats"></div>
+  </div>
+
+  <script>
+    const STORAGE_KEY = 'maxtask_todos';
+    let tasks = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+    let filter = 'all';
+
+    const taskInput = document.getElementById('taskInput');
+    const addBtn = document.getElementById('addBtn');
+    const taskList = document.getElementById('taskList');
+    const statsEl = document.getElementById('stats');
+    const filterBtns = document.querySelectorAll('.filters button');
+
+    function save() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(tasks));
+    }
+
+    function render() {
+      const filtered = tasks.filter(t => {
+        if (filter === 'active') return !t.done;
+        if (filter === 'done') return t.done;
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        const messages = {
+          all: 'No tasks yet. Add one above!',
+          active: 'No active tasks. Nice work!',
+          done: 'No completed tasks yet.'
+        };
+        taskList.innerHTML = `
+          <div class="empty-state">
+            <div class="icon">${filter === 'active' ? '&#127881;' : '&#128221;'}</div>
+            <p>${messages[filter]}</p>
+          </div>`;
+      } else {
+        taskList.innerHTML = filtered.map(t => `
+          <div class="task-item ${t.done ? 'done' : ''}" data-id="${t.id}">
+            <div class="checkbox" onclick="toggleTask('${t.id}')">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <span class="task-text" ondblclick="startEdit(this, '${t.id}')">${escapeHtml(t.text)}</span>
+            <button class="delete-btn" onclick="deleteTask('${t.id}')" title="Delete">
+              <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+          </div>
+        `).join('');
+      }
+
+      const total = tasks.length;
+      const done = tasks.filter(t => t.done).length;
+      if (total > 0) {
+        statsEl.textContent = `${done} of ${total} completed`;
+      } else {
+        statsEl.textContent = '';
+      }
+    }
+
+    function escapeHtml(str) {
+      const div = document.createElement('div');
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    function addTask() {
+      const text = taskInput.value.trim();
+      if (!text) return;
+      tasks.unshift({ id: generateId(), text, done: false });
+      taskInput.value = '';
+      save();
+      render();
+      taskInput.focus();
+    }
+
+    function toggleTask(id) {
+      const task = tasks.find(t => t.id === id);
+      if (task) task.done = !task.done;
+      save();
+      render();
+    }
+
+    function deleteTask(id) {
+      tasks = tasks.filter(t => t.id !== id);
+      save();
+      render();
+    }
+
+    function startEdit(el, id) {
+      el.contentEditable = true;
+      el.classList.add('editing');
+      el.focus();
+
+      // select all text
+      const range = document.createRange();
+      range.selectNodeContents(el);
+      const sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+
+      function finishEdit() {
+        el.contentEditable = false;
+        el.classList.remove('editing');
+        const newText = el.textContent.trim();
+        const task = tasks.find(t => t.id === id);
+        if (task && newText) {
+          task.text = newText;
+          save();
+        }
+        render();
+      }
+
+      el.onblur = finishEdit;
+      el.onkeydown = (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          el.blur();
+        }
+        if (e.key === 'Escape') {
+          el.textContent = tasks.find(t => t.id === id)?.text || '';
+          el.blur();
+        }
+      };
+    }
+
+    function generateId() {
+      return Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+    }
+
+    // Event listeners
+    addBtn.addEventListener('click', addTask);
+    taskInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') addTask();
+    });
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filter = btn.dataset.filter;
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        render();
+      });
+    });
+
+    // Initial render
+    render();
+  </script>
+</body>
+</html>
