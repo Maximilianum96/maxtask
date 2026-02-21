@@ -19,11 +19,12 @@ export class ReportExporter {
   async export(report, formats = ['json']) {
     await mkdir(this.outputDir, { recursive: true });
 
+    const normalized = _normalize(report);
     const written = [];
     const stamp = _timestamp();
 
     for (const fmt of formats) {
-      const path = await this._write(report, fmt, stamp);
+      const path = await this._write(normalized, fmt, stamp);
       written.push(path);
     }
 
@@ -275,6 +276,44 @@ export class ReportExporter {
 }
 
 // ── Helpers ────────────────────────────────────────────
+
+/**
+ * Normalize a single-agent report into the comprehensive report shape.
+ * If it already has the full shape (title, executiveSummary, etc.), return as-is.
+ */
+function _normalize(report) {
+  if (report.executiveSummary) return report;
+
+  // Single-agent report: { agent, role, totalFindings, findings, tasks, generatedAt }
+  const highConf = (report.findings || [])
+    .filter(f => f.confidence >= 0.75)
+    .sort((a, b) => b.confidence - a.confidence);
+
+  return {
+    title: `HACOY Future - ${report.agent} Report`,
+    subtitle: `Single-Agent Research Export`,
+    generatedAt: report.generatedAt,
+    executionTime: report.generatedAt,
+
+    executiveSummary: {
+      vision: `Research findings from the ${report.agent} agent.`,
+      keyFindings: highConf.slice(0, 6).map(f => f.summary),
+      criticalChallenges: [],
+      overallAssessment: `${report.totalFindings} findings produced by the ${report.agent} (${report.role}).`,
+    },
+
+    agentReports: [report],
+
+    knowledgeBase: {},
+
+    totalFindings: report.totalFindings,
+    findingsByAgent: { [report.role]: report.totalFindings },
+
+    highConfidenceFindings: highConf,
+
+    recommendedNextSteps: [],
+  };
+}
 
 function _timestamp() {
   return new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
