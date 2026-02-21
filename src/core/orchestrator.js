@@ -7,6 +7,7 @@
 
 import { AgentRole } from './types.js';
 import { ResearchContext } from './research-context.js';
+import { ReportExporter } from '../reports/report-exporter.js';
 import { FabricSourcingAgent } from '../agents/fabric-sourcing-agent.js';
 import { ManufacturerScoutAgent } from '../agents/manufacturer-scout-agent.js';
 import { SupplyChainAgent } from '../agents/supply-chain-agent.js';
@@ -233,6 +234,23 @@ export class HACOYOrchestrator {
         owner: 'Marketing + retail team',
       },
     ];
+  }
+
+  /**
+   * Export report to disk.
+   * @param {Object} report - The comprehensive report object
+   * @param {string[]} formats - Array of formats: 'json', 'html', 'md'
+   * @param {string} [outputDir] - Output directory (defaults to src/reports/)
+   * @returns {Promise<string[]>} Array of written file paths
+   */
+  async exportReport(report, formats = ['json'], outputDir) {
+    const exporter = new ReportExporter(outputDir);
+    const paths = await exporter.export(report, formats);
+    console.log(`\n  Report exported:`);
+    for (const p of paths) {
+      console.log(`    → ${p}`);
+    }
+    return paths;
   }
 
   _printReportSummary(report) {

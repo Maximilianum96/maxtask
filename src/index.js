@@ -9,6 +9,7 @@
  *   node src/index.js                    Run full research
  *   node src/index.js --list-agents      List all agents
  *   node src/index.js --agent <role>     Run a specific agent
+ *   node src/index.js --export <fmts>    Export report (json,html,md)
  *   node src/index.js --help             Show help
  *
  * Agent roles: fabric-sourcing, manufacturer-scout, supply-chain,
@@ -33,6 +34,8 @@ const HELP_TEXT = `
     node src/index.js --mode=full-research     Same as above
     node src/index.js --list-agents            List all agents and capabilities
     node src/index.js --agent <role>           Run a specific agent only
+    node src/index.js --export <formats>       Export report after research
+    node src/index.js --export-dir <path>      Set export output directory
 
   AGENT ROLES:
     fabric-sourcing       Identifies local fabric sources in Bavaria
@@ -41,10 +44,19 @@ const HELP_TEXT = `
     sustainability        Assesses sustainability and EU compliance
     market-intelligence   Analyzes market trends and consumer demand
 
+  EXPORT FORMATS:
+    json       Machine-readable JSON (default)
+    html       Styled HTML report
+    md         Markdown report
+    all        All three formats
+
   EXAMPLES:
     node src/index.js --agent fabric-sourcing
     node src/index.js --agent manufacturer-scout
     node src/index.js --list-agents
+    node src/index.js --export json,html
+    node src/index.js --export all
+    node src/index.js --export html --export-dir ./my-reports
 
   PROJECT:
     HACOY Future - Building the future of hyper-local fashion in Bavaria.
@@ -66,6 +78,12 @@ async function main() {
     return;
   }
 
+  // Parse --export and --export-dir flags
+  const exportIndex = args.indexOf('--export');
+  const exportDirIndex = args.indexOf('--export-dir');
+  const exportFormats = parseExportFormats(exportIndex !== -1 ? args[exportIndex + 1] : null);
+  const exportDir = exportDirIndex !== -1 ? args[exportDirIndex + 1] : undefined;
+
   const agentIndex = args.indexOf('--agent');
   if (agentIndex !== -1 && args[agentIndex + 1]) {
     const role = args[agentIndex + 1];
@@ -77,6 +95,10 @@ async function main() {
     }
     const report = await orchestrator.runAgent(role);
     console.log(`\n  Agent "${role}" complete. ${report.totalFindings} findings.\n`);
+
+    if (exportFormats) {
+      await orchestrator.exportReport(report, exportFormats, exportDir);
+    }
     return;
   }
 
@@ -89,6 +111,24 @@ async function main() {
   console.log(`  Total findings: ${report.totalFindings}`);
   console.log(`  Report generated at: ${report.generatedAt}`);
   console.log('  ══════════════════════════════════════\n');
+
+  if (exportFormats) {
+    await orchestrator.exportReport(report, exportFormats, exportDir);
+  }
+}
+
+function parseExportFormats(value) {
+  if (!value) return null;
+  if (value === 'all') return ['json', 'html', 'md'];
+  const valid = ['json', 'html', 'md'];
+  const formats = value.split(',').map(f => f.trim().toLowerCase());
+  for (const f of formats) {
+    if (!valid.includes(f)) {
+      console.error(`\n  Unknown export format: "${f}". Valid: ${valid.join(', ')}, all\n`);
+      process.exit(1);
+    }
+  }
+  return formats;
 }
 
 main().catch(err => {
