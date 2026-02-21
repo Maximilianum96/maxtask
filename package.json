@@ -1,0 +1,27 @@
+{
+  "name": "hacoy-fabric-research-agents",
+  "version": "1.0.0",
+  "description": "HACOY Future - Hyper-local fabric production and commerce research agent team for Bavaria",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "research": "node src/index.js --mode=full-research",
+    "agents:list": "node src/index.js --list-agents",
+    "export": "node src/index.js --export all",
+    "export:json": "node src/index.js --export json",
+    "export:html": "node src/index.js --export html",
+    "export:md": "node src/index.js --export md",
+    "test": "node --test src/tests/*.test.js"
+  },
+  "keywords": [
+    "hacoy",
+    "fabric",
+    "bavaria",
+    "hyper-local",
+    "manufacturing",
+    "research-agents",
+    "clothing"
+  ],
+  "license": "MIT"
+}
