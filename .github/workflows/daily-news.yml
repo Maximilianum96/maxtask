@@ -1,0 +1,41 @@
+name: HACOY Daily News Tracker
+
+on:
+  schedule:
+    # Run daily at 6:00 UTC (7:00 CET / 8:00 CEST)
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: claude/daily-news-tracker-Rs1HN
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run news tracker
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+        run: npm start
+
+      - name: Commit local exports
+        run: |
+          git config user.name "HACOY News Bot"
+          git config user.email "news-bot@hacoy.com"
+          git add src/data/
+          git diff --staged --quiet || git commit -m "Daily news update $(date +%Y-%m-%d)"
+          git push

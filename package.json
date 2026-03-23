@@ -1,0 +1,28 @@
+{
+  "name": "hacoy-daily-news-tracker",
+  "version": "1.0.0",
+  "description": "HACOY Daily News Tracker — Fashion, Tech & Sustainability news for Munich, DACH & EU",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "fetch": "node src/index.js --mode=fetch",
+    "export:sheets": "node src/index.js --mode=export-sheets",
+    "export:csv": "node src/index.js --mode=export-csv",
+    "export:json": "node src/index.js --mode=export-json",
+    "test": "node --test src/tests/*.test.js"
+  },
+  "keywords": [
+    "hacoy",
+    "news-tracker",
+    "fashion",
+    "sustainability",
+    "circular-economy",
+    "munich",
+    "dach"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}
