@@ -12,7 +12,17 @@ Tailscale-only.
 > run as-is on its own port, or ported into Atrium's app pattern using this as
 > the reference implementation.
 
-## Run
+## One-command install on the Mac Studio
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/Maximilianum96/maxtask/claude/red-thread-atrium-app-y8a3p9/red-thread/install-mac.sh | sh
+```
+
+Clones this branch to `~/RedThread`, sets up a launchd service (auto-start,
+keep-alive), and health-checks it. Re-run the same command any time to update;
+your data is never touched. Then open `http://100.79.103.60:7788/red-thread`.
+
+## Run manually
 
 ```sh
 node server.js            # listens on 0.0.0.0:7788
