@@ -15,7 +15,7 @@ This is the game's single source of truth. When a design question comes up, this
 2. Neither Reed state is the good world.
 3. Show, never say.
 4. The father is scarce. Scarcity is presence.
-5. Better, not more: one strong set per region, 2 to 4 hours of play, small and true.
+5. Better, not more: one strong set per region, small and true. Length is deliberately unset (Max, August 2026): the earlier 2 to 4 hour target is lifted until the vertical slice shows what the game wants to be.
 6. A child's memory rebuilt with a man's craft.
 7. Animals are never enemies. Nothing in this world cuts except the Fates' shears. Enemies only fray, snag and unravel.
 8. Round is alive, straight is wrong: healthy woven things live in curves and loops, the unraveling pulls things straight, taut and pointed.
@@ -204,7 +204,7 @@ Max's pass at what the player picks up, reviewed and answered August 2026. LOCKE
 - *Where it comes from, and this is the part that matters.* Ari does not find money, he makes it. The Frayed drop what they were made of, thread and scraps and torn cloth (5.1 LOCKED), and Ari takes that to a loom and weaves it into bolts. Weaving is therefore both crafting and minting: the same verb that makes his coat makes his money, and the weaver's son funds himself by doing exactly what his father did. Fibre in, bolt out, bolt buys.
 - *What it buys.* Tension fibre from the apothecaries and haberdashers already LOCKED in 3, the mending and spool pickups, bigger bags, patterns, and fibres a region does not grow.
 - *What it comes back from.* NPC commissions. 5.1 already LOCKS weaving for NPCs and repairing frayed people late game; those jobs pay in bolts, which is how the economy closes without a single coin.
-- *Optional layer, DRAFT and only if it stays light.* Fibre is worth more where it is rare: Málaga silk carries north, London wool carries south. Ari moving goods between distant places to make them worth something is literally his father's job, so the theme is exact. The risk is equally exact: this is a 2 to 4 hour game and pillar five says better, not more. Recommendation is a gentle price difference an observant player notices and profits from, with no trading UI, no routes and no ledger. If it starts to feel like a trading sim, cut it.
+- *Optional layer, DRAFT and only if it stays light.* Fibre is worth more where it is rare: Málaga silk carries north, London wool carries south. Ari moving goods between distant places to make them worth something is literally his father's job, so the theme is exact. The risk is equally exact: pillar five says better, not more, and a trading economy is a lot of surface for a solo project whatever the final length turns out to be. Recommendation is a gentle price difference an observant player notices and profits from, with no trading UI, no routes and no ledger. If it starts to feel like a trading sim, cut it.
 
 **Potions (LOCKED names).**
 - *Health is mending*, carried as a patch or a darning kit. Ari is cloth, so he is repaired, not healed.
@@ -243,7 +243,9 @@ Rules LOCKED: record voice memos when she wanders, tangents most of all. Save al
 
 ## 9. Production
 
-LOCKED: solo, Godot 4 with Claude Code. Target 2 to 4 hours of play.
+LOCKED: solo, Godot 4 with Claude Code.
+Length: OPEN (Max, August 2026). The old 2 to 4 hour target is lifted; nobody knows yet how long this wants to be, and the number gets set after the vertical slice, from evidence rather than from a guess. Two reference points, both approximate: Titan Quest runs roughly 25 to 35 hours for a first campaign, and Arc the Lad: Twilight of the Spirits is a similar length. Both are studio games with teams behind them, so they are a measure of ambition, not of solo schedule. The honest constraint is the weekly hours below, and the sequence to protect is milestone 1 then 2: get the vertical slice real, then let the length follow from how fast a chapter actually takes to build.
+Consequence to revisit: the production rule in 4 (four or five full chapters maximum, everything else a postcard) was written under the old target and should be re-examined once the length question reopens.
 Milestones: 1) Grey box prototype, 2 to 4 weeks: one lake vignette, one fibre tree, one boss, the catch. 2) Vertical slice, 20 minutes, final art and sound. 3) Steam page early, wishlists, demo at Next Fest. 4) itch.io feedback builds. 5) IARC at release. Entity question to Nikolai.
 GAP: honest weekly hours next to HACOY. The schedule bends to that number.
 
@@ -260,7 +262,7 @@ From Max:
 - [ ] Starting fibre tree and ability fantasies (5.7)
 - [ ] Palette words per region, reference board, test screen (6)
 - [ ] One more Munich scene (4)
-- [ ] Weekly hours (9)
+- [ ] Weekly hours (9), now the binding constraint since the length target is lifted
 - [ ] RT-016: Cindy, what she really looked like (3)
 - [ ] Currency: yes or no to the bolts economy exactly as written in 5.10
 - [ ] The fibre pouch: confirm it stays outside the bag (5.10), now that stringing is always available
