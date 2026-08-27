@@ -95,6 +95,7 @@ function renderMarkdown(md) {
   const out = [];
   let list = null; // 'ul' | 'ol'
   let para = [];
+  let quote = null; // raw (unescaped) inner lines, rendered recursively
 
   const closeList = () => { if (list) { out.push(`</${list}>`); list = null; } };
   const closePara = () => {
@@ -103,8 +104,22 @@ function renderMarkdown(md) {
       para = [];
     }
   };
+  const closeQuote = () => {
+    if (quote) {
+      out.push('<blockquote>' + renderMarkdown(quote.join('\n')) + '</blockquote>');
+      quote = null;
+    }
+  };
 
   for (const raw of lines) {
+    const q = raw.match(/^>\s?(.*)$/);
+    if (q) {
+      closePara(); closeList();
+      if (!quote) quote = [];
+      quote.push(q[1]);
+      continue;
+    }
+    closeQuote();
     const line = escapeHtml(raw);
     const h = line.match(/^(#{1,6})\s+(.*)$/);
     if (h) {
@@ -138,7 +153,7 @@ function renderMarkdown(md) {
     closeList();
     para.push(line);
   }
-  closePara(); closeList();
+  closePara(); closeList(); closeQuote();
   return out.join('\n');
 }
 
@@ -149,6 +164,7 @@ const CSS = `
   --bg: #0d0d10; --panel: #16161c; --panel2: #1d1d25;
   --text: #d8d5cf; --muted: #7d7a74; --line: #2a2a33;
   --red: #c0392b; --red-soft: #e07a6a; --green: #3fb96b;
+  --gold: #c9a227;
 }
 * { box-sizing: border-box; }
 body {
@@ -176,6 +192,12 @@ article.bible h3 { font-size: 1.05rem; margin-top: 1.6rem; color: var(--red-soft
 article.bible li { margin: .25rem 0; }
 article.bible li.task { list-style: none; margin-left: -1.2rem; }
 article.bible hr { border: none; border-top: 1px solid var(--line); }
+/* Family voices, set apart. Her thread is gold. */
+article.bible blockquote {
+  margin: 1rem 0; padding: .1rem 0 .1rem 1.15rem;
+  border-left: 3px solid var(--gold); color: #e6e2da;
+}
+article.bible blockquote p { margin: .6rem 0; }
 textarea.editor {
   width: 100%; min-height: 70vh; resize: vertical;
   background: var(--panel); color: var(--text); border: 1px solid var(--line);
