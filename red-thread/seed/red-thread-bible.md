@@ -151,9 +151,24 @@ No gold. Enemies drop what they were made of: thread, scraps, cloth. Regional fi
 
 His father's weaver's comb, strung with tension fibre that wears out. Strung whenever the player wants, including mid fight (LOCKED, Max's decision August 2026, amending the earlier morning-only rule; the morning stringing keeps the habit and the tenderness, it is simply no longer the only window). Gathered wild, bought prepared, or dropped by the Frayed. Small carry limit: with the window always open the question moves from planning the day to spending in the moment, and the limit is what keeps that a real decision. Running out is story. Never a moral meter, never tied to the weaver's fate.
 What the change buys and costs (note, so future Max knows why it moved): the two states become a toggle reached for per situation, which is pillar two doing its work, neither state is the good world and both are tools. The cost is that the morning stringing no longer decides the day, so its weight is emotional rather than mechanical, and the fibre economy becomes rationing where it used to be planning.
-Unstrung: many threads at once, shimmer, glowing side paths, associative leaps, wandering main thread, hyperfocus that greys the world around one brilliant thing.
-Strung: aligned threads, steady aim, clean weaving, constant main thread, dimmed shimmer, doors that never appear.
-GAP, most important: both states from inside. Sound, color, how time moves, what a room feels like. Raw voice memo is perfect.
+**The two states, in Max's own words (LOCKED).** These stay canon exactly as written:
+- *Unstrung:* many threads at once, shimmer, glowing side paths, associative leaps, wandering main thread, hyperfocus that greys the world around one brilliant thing.
+- *Strung:* aligned threads, steady aim, clean weaving, constant main thread, dimmed shimmer, doors that never appear.
+
+**What that becomes in the player's hands (DRAFT, derived from the lines above rather than invented beside them).**
+
+*Unstrung is the default.* Ari's traits in 3 are chaotic creativity and high impulsivity, which is this state described from the outside. Unstrung is simply who he is; strung is the borrowed condition, never the baseline. The game should never present the baseline as the broken one.
+
+*Unstrung, in play.* The world renders more. Side paths glow, connections between distant things are visible as threads running between them, and there are doors the strung eye cannot see. The main thread wanders, so holding the objective takes effort. Hyperfocus is the sharpest edge in the game: the world greys out around one brilliant thing, which becomes enormously effective and costs all awareness of everything else. In a fight that reads as devastating attention on a single enemy while the rest of the room goes dim and quiet and keeps moving anyway.
+
+*Strung, in play.* Aim steadies, weaves come out clean, the main thread runs straight and legible. The shimmer dims and the side paths stop rendering. Then the cruel part, which is already sitting in Max's own line: doors that never appear. Content the player simply will not find while strung, and the game never tells them it was there. Someone who plays the whole game strung finishes having missed things they will never know existed. That is pillar two enforced mechanically instead of argued: neither state is the good world, and the strung one pays in a currency the player cannot see.
+
+*The dose.* The fibre wears out, which is already LOCKED, so being strung has a duration and then it ends. Stringing mid fight is therefore not a mode switch but a dose: one fibre, a while, then it wears off, and the carry limit is how many are left.
+
+**GAP, and it is now narrow.** Colour and light are richly covered above, and the shape of a room comes through by implication. Two axes are still blank and only Max can fill them:
+- *Sound.* How many layers are in the mix in each state, what can and cannot be heard, what the music does. Does unstrung hear everything at once, including things far away, and does strung narrow to one clear line and lose something in the narrowing?
+- *Time.* How it moves in each. Hyperfocus presumably eats hours without noticing; what does strung time feel like next to that, metronomic and even, or something else?
+Raw voice memo is perfect.
 GAP: the morning stringing as a thirty second scene.
 
 ### 5.3 Visions (LOCKED)
@@ -284,7 +299,7 @@ From Max:
 - [ ] Ari: does he age across the game? (3) Everything about his combat read waits on this
 - [ ] Ari: three traits deliberately his own (3)
 - [ ] Recognition list (5.4)
-- [ ] ADHD textures from inside, both states (5.2)
+- [ ] The two Reed states: sound and time only, the rest is written up in 5.2 from Max's own description
 - [ ] Morning stringing scene (5.2)
 - [ ] Death: confirm the visible frayed cloak as the floor (5.6)
 - [ ] Ability fantasies, three per fibre tree, in Max's words (5.7)
