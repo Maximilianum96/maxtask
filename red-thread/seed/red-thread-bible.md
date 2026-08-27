@@ -65,7 +65,12 @@ Arc the Lad: Twilight of the Spirits (EU title: Arc: Twilight of the Spirits). S
 
 LOCKED: Everyone calls him Ari or the weaver's boy; only the visions use the full name. His posture straightens across the game until his walk matches his father's. Skips breakfast, goes quietly hangry. Fails a weave three times, the screen tightens. Inherits the stubbornness honestly.
 Child Ari in Der See (LOCKED, reference RT-011): the curly mop, hands always one notch more detailed than the rest of him, runs with airplane arms through safe meadows. Warm beat: on an owl flight between stations a kindly stranger mistakes the long curled child for a girl; he corrects them with a grin.
-GAP: Age at start. Does he paint? Voice or quiet protagonist? Three traits of Max's he carries, three deliberately his own.
+LOCKED (Max, August 2026): seven years old when the game begins. He does not paint. He is silent, never voiced and never given dialogue lines, which is pillar three holding at the level of the protagonist himself: a boy who says nothing, in a game whose one spoken line is his father's. Only the visions ever say Aristoteles out loud.
+The three traits (LOCKED): chaotic creativity, high impulsivity, and a big kindness that is sometimes too big, the kind that gets used. The first two are the unstrung Reed described from the outside, so Ari does not merely carry the Reed, he is it, and that is why his father's tool answers to him.
+DRAFT, the kindness as a mechanic: some NPCs ask for more than they should and Ari cannot refuse, so the player watches him hand over fibre, time or a finished garment to someone who will not give back. Never punished by the game, never called a mistake, and once, late, someone gives back far more than they took.
+GAP: does he age across the game? Everything else waits on this. It also decides what the child Ari note in Der See and RT-011 mean: if he is seven throughout, then child Ari simply is Ari.
+GAP: how does a seven year old fight? The weapons are a weaver's tools, so combat should read as a child improvising with his father's things rather than as a warrior's technique. An animation and art question before it is a systems one.
+GAP: three traits deliberately his own, as opposed to the three above, which read as inherited.
 
 ### Der Weber, the father
 
@@ -168,12 +173,33 @@ The Honorarkonsul nomination (4.6) is the one honor he was openly and uncomplica
 
 ### 5.6 Death and the thread
 
-GAP, big open design question: what does dying cost? Options: the cloak frays and must be rewoven (cost: fabric). Someone unseen reweaves you, you wake at the last camp, one thread paler. A Fate tallies every reweave and mentions it once, late.
+LOCKED (Max, August 2026): the cloak frays and must be rewoven, and the cost is fabric. Death is paid for in the same material as everything else, which now also means it is paid for in money (5.10).
+DRAFT, and it wants to be true: the fraying is visible on the body. A player who dies and cannot yet afford the reweave keeps walking around frayed, so death is never a hard block, it is a mark. And because people in this world fray at the edges when the weave fails (2.1), a player who dies often slowly begins to look like the unraveling itself. Show, never say.
+GAP: the floor. There has to be a state in which a player with no fabric can still continue, or a bad run soft locks the game. The frayed cloak above is the proposed floor: worse, wearable, never fatal.
 
 ### 5.7 Combat and skill trees
 
 DRAFT: weapons are the weaver's tools, shuttle, needle, distaff, never shears (only the Fates hold shears). Four fibre trees: linen (light and memory), hemp (resilience), silk (speed and deception), nettle (pain turned to armor, unlocked late). Signature battlefield verb: stretch a thread between two anchor points; everything crossing the line is snared or frayed apart. Thread geometry instead of grid positioning.
-GAP: Ari's starting tree, three ability fantasies per tree, in Max's words. Titan Quest instincts welcome.
+**Classes, the shape (LOCKED, Max, August 2026).** Ari starts neutral, with no tree at all. At level 2 the player picks a first fibre; a second fibre unlocks later, and the pair is what makes the class. This is the Titan Quest mastery structure the bible already nods to, and it is the right one here for a reason beyond homage: it keeps the opening classless, so for the first hour the boy is just a boy, and it lets the player build a direction rather than pick an identity off a menu before the game has said anything.
+DRAFT: the second fibre unlocks around level 8 to 10, or on reaching the second station, whichever the pacing wants. Nettle stays late either way, which is already canon.
+
+**The four fibres as masteries (DRAFT names).**
+- **Linen, the Lamplighter.** Light and memory. Calls remembered things to stand beside you, lights what the dark is holding, and carries the mending that repairs frayed people late game (5.1 LOCKED). The support and summon tree.
+- **Hemp, the Anchor.** Resilience. Rope, binding, holding the line. The signature stretch-a-thread-between-two-anchors verb lives here first. The tank.
+- **Silk, the Slipknot.** Speed and deception. Decoys, feints, and slipping a knot you are already caught in. The rogue.
+- **Nettle, the Hairshirt.** Pain turned to armor, unlocked late. You take the sting on purpose and wear it. The tree that costs something to use.
+
+**Pair names (DRAFT).** Every class name is a real word someone who works cloth or rope would know; nothing invented-fantasy:
+- Linen + Hemp, **Sailmaker**
+- Linen + Silk, **Gossamer**
+- Linen + Nettle, **Sampler**, which is also the midpoint object in the Horgen attic: memory and pain stitched together, Nur so gehts
+- Hemp + Silk, **Rigger**
+- Hemp + Nettle, **Hawser**
+- Silk + Nettle, **Bramble**
+
+**One class this game must never have (recommendation, and a firm one).** No necromancer, no raising the dead, no summoning a person back. The whole engine of this story is that you cannot have him back, and the false ending exists to prove that a rewoven person is wrong. If the player can raise the dead at level twelve, that ending has no teeth left. So the Lamplighter calls echoes of things and moments, never of people who died, and never of the father, who stays scarce by pillar four.
+
+GAP: three ability fantasies per tree, in Max's words. Not names, not numbers, just what he actually wants to DO with thread in a fight.
 
 ### 5.8 Daily ritual (LOCKED)
 
@@ -246,23 +272,29 @@ Rules LOCKED: record voice memos when she wanders, tangents most of all. Save al
 LOCKED: solo, Godot 4 with Claude Code.
 Length: OPEN (Max, August 2026). The old 2 to 4 hour target is lifted; nobody knows yet how long this wants to be, and the number gets set after the vertical slice, from evidence rather than from a guess. Two reference points, both approximate: Titan Quest runs roughly 25 to 35 hours for a first campaign, and Arc the Lad: Twilight of the Spirits is a similar length. Both are studio games with teams behind them, so they are a measure of ambition, not of solo schedule. The honest constraint is the weekly hours below, and the sequence to protect is milestone 1 then 2: get the vertical slice real, then let the length follow from how fast a chapter actually takes to build.
 Consequence to revisit: the production rule in 4 (four or five full chapters maximum, everything else a postcard) was written under the old target and should be re-examined once the length question reopens.
-Milestones: 1) Grey box prototype, 2 to 4 weeks: one lake vignette, one fibre tree, one boss, the catch. 2) Vertical slice, 20 minutes, final art and sound. 3) Steam page early, wishlists, demo at Next Fest. 4) itch.io feedback builds. 5) IARC at release. Entity question to Nikolai.
-GAP: honest weekly hours next to HACOY. The schedule bends to that number.
+Milestones: 1) Grey box prototype, roughly 60 to 100 hours of work: one lake vignette, one fibre tree, one boss, the catch. 2) Vertical slice, 20 minutes, final art and sound. 3) Steam page early, wishlists, demo at Next Fest. 4) itch.io feedback builds. 5) IARC at release. Entity question to Nikolai.
+Weekly hours (LOCKED, Max, August 2026): three hours a week as a minimum, with the true number still unknown. That is roughly 156 hours a year, and the schedule bends to it rather than the other way round.
+Consequence, stated once and without drama: milestone estimates have to be written in hours of work, not in calendar weeks, or they lie. The grey box prototype is roughly 60 to 100 focused hours, which at three hours a week is most of a year and at ten hours a week is a couple of months. Neither figure is a verdict on the project. This is a personal memorial with no deadline and no client, and the only real risk is measuring it against a schedule that was never real. Protect the sequence rather than the date: prototype, then vertical slice, then let the length question answer itself from how long one chapter actually took to build.
 
 ## 10. Master gap list
 
 From Max:
 - [ ] The promise to yourself (1)
 - [ ] The Fates when met (2.1)
-- [ ] Ari: age, painter or not, voice, three own traits (3)
+- [ ] Ari: does he age across the game? (3) Everything about his combat read waits on this
+- [ ] Ari: three traits deliberately his own (3)
 - [ ] Recognition list (5.4)
 - [ ] ADHD textures from inside, both states (5.2)
 - [ ] Morning stringing scene (5.2)
-- [ ] Death cost decision (5.6)
-- [ ] Starting fibre tree and ability fantasies (5.7)
+- [ ] Death: confirm the visible frayed cloak as the floor (5.6)
+- [ ] Ability fantasies, three per fibre tree, in Max's words (5.7)
+- [ ] Class names: yes or no to Lamplighter, Anchor, Slipknot, Hairshirt and the six pairs (5.7)
 - [ ] Palette words per region, reference board, test screen (6)
 - [ ] One more Munich scene (4)
-- [ ] Weekly hours (9), now the binding constraint since the length target is lifted
+- [x] Weekly hours: three a week minimum (9)
+- [x] Ari: seven, silent, does not paint, three traits (3)
+- [x] Death cost: the cloak frays, paid in fabric (5.6)
+- [x] Classes: neutral start, first fibre at level 2, second later (5.7)
 - [ ] RT-016: Cindy, what she really looked like (3)
 - [ ] Currency: yes or no to the bolts economy exactly as written in 5.10
 - [ ] The fibre pouch: confirm it stays outside the bag (5.10), now that stringing is always available
