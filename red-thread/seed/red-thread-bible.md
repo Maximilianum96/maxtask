@@ -96,7 +96,7 @@ It also settles the child Ari note in Der See and RT-011: those are Ari at the b
 GAP: how does a seven year old fight? The weapons are a weaver's tools, so combat should read as a child improvising with his father's things rather than as a warrior's technique. An animation and art question before it is a systems one.
 **The inherited three, second pass (LOCKED, Max, August 2026).** A sharper reading of the same inheritance. Nothing in it is unique to one person; the distinctiveness is in the combination.
 1. *He removes his own leverage on purpose.* He would rather show what a thing cost him to make than win the trade: a rare willingness to argue from the weaker position.
-   In Ari: he cannot hide a price or a seam. Put in front of a merchant's scales, he says what the cloth actually cost him. DRAFT, and it is a friction worth keeping rather than smoothing: silk is the tree of speed and deception (5.7), so a boy constitutionally unable to deceive either learns that tree against his own grain or never takes it. Both are interesting; neither should be free.
+   In Ari: he cannot hide a price or a seam. Put in front of a merchant's scales, he says what the cloth actually cost him. DRAFT, and it is a friction worth keeping rather than smoothing: the Unpicker is the mastery of speed and deception (5.7), so a boy constitutionally unable to deceive either learns it against his own grain or never takes it. Both are interesting; neither should be free.
 2. *The argument travels.* A principle held in one domain is held in all of them, instead of being dropped wherever convenience starts. Own rather than rent, make rather than buy, keep it local and keep it yours.
    In Ari: he treats a torn sock and a torn world as the same problem at different sizes, which is the entire plot in one sentence. It is also why he weaves his own clothing (5.1) rather than being handed it. Making rather than being given is not a mechanic imposed on him, it is a trait he has.
 3. *He generates concepts far faster than he can execute them.* Max's own note, kept with its edge intact because the honesty is the point: unusual as a rate, and also the trait most likely to cost him.
@@ -128,7 +128,7 @@ The cats of the world: the Horgen hub house keeps three cats, one of them called
 DRAFT, and the three ages (3) force the question: Ari now travels from seven to twenty-eight, which is twenty-one years, and no ordinary cat survives that. Two ways out, and the second is better.
 - Cindy ages and dies before the end. Devastating, and almost certainly too much grief for a game that already has all it needs, and it breaks the LOCKED final beat where she looks at the water, the boy, and then Ari.
 - The ageing is a charge rather than elapsed time, which is what the price draft in 3 already says. The journey may last a season while Ari alone is billed twenty-one years for it. Cindy stays an ordinary cat of ordinary years and barely changes at all.
-Recommended: the second, because it makes the cost visible by contrast. Everything around him stays as it was, the cat included, and Ari is the only thing being spent. It is also why nobody in the world remarks on it: to them, no time has passed.
+CONFIRMED (Max, August 2026): the second. Everything around him stays as it was, the cat included, and Ari is the only thing being spent. It is also why nobody in the world remarks on it: to them, no time has passed.
 GAP (RT-016, open commission): what the real Cindy looked like, markings, colors, how she sat.
 
 ### The sisters
@@ -245,27 +245,32 @@ GAP: the floor. There has to be a state in which a player with no fabric can sti
 
 ### 5.7 Combat and skill trees
 
-DRAFT: weapons are the weaver's tools, shuttle, needle, distaff, never shears (only the Fates hold shears). Four fibre trees: linen (light and memory), hemp (resilience), silk (speed and deception), nettle (pain turned to armor, unlocked late). Signature battlefield verb: stretch a thread between two anchor points; everything crossing the line is snared or frayed apart. Thread geometry instead of grid positioning.
-**Classes, the shape (LOCKED, Max, August 2026).** Ari starts neutral, with no tree at all. At level 2 the player picks a first fibre; a second fibre unlocks later, and the pair is what makes the class. This is the Titan Quest mastery structure the bible already nods to, and it is the right one here for a reason beyond homage: it keeps the opening classless, so for the first hour the boy is just a boy, and it lets the player build a direction rather than pick an identity off a menu before the game has said anything.
-DRAFT: the second fibre unlocks around level 8 to 10, or on reaching the second station, whichever the pacing wants. Nettle stays late either way, which is already canon.
+DRAFT: weapons are the weaver's tools, shuttle, needle, distaff, spindle, never shears (only the Fates hold shears). Signature battlefield verb: stretch a thread between two anchor points; everything crossing the line is snared or frayed apart. Thread geometry instead of grid positioning.
+**Classes, the shape (LOCKED, Max, August 2026).** Ari starts neutral, with no mastery at all. At level 2 the player picks a first mastery; a second unlocks later, and the pair is what makes the class. This is the Titan Quest structure the bible already nods to, and it is right here for a reason beyond homage: it keeps the opening classless, so for the first hour the boy is just a boy, and it lets the player build a direction rather than pick an identity off a menu before the game has said anything.
+DRAFT: the second mastery unlocks around level 8 to 10, or on reaching the second station, whichever the pacing wants.
 
-**The four fibres as masteries (DRAFT names).**
-- **Linen, the Lamplighter.** Light and memory. Calls remembered things to stand beside you, lights what the dark is holding, and carries the mending that repairs frayed people late game (5.1 LOCKED). The support and summon tree.
-- **Hemp, the Anchor.** Resilience. Rope, binding, holding the line. The signature stretch-a-thread-between-two-anchors verb lives here first. The tank.
-- **Silk, the Slipknot.** Speed and deception. Decoys, feints, and slipping a knot you are already caught in. The rogue.
-- **Nettle, the Hairshirt.** Pain turned to armor, unlocked late. You take the sting on purpose and wear it. The tree that costs something to use.
+**Masteries are never named after fabrics (LOCKED, Max, August 2026).** The earlier draft named the four trees linen, hemp, silk and nettle, and Max killed it for the right reason: a player in the linen tree would reasonably assume they were meant to collect linen, and the two systems would bleed into each other. So the split is now absolute. **Fabrics are materials and money. Masteries are how you fight. They never share a name.**
 
-**Pair names (DRAFT).** Every class name is a real word someone who works cloth or rope would know; nothing invented-fantasy:
-- Linen + Hemp, **Sailmaker**
-- Linen + Silk, **Gossamer**
-- Linen + Nettle, **Sampler**, which is also the midpoint object in the Horgen attic: memory and pain stitched together, Nur so gehts
-- Hemp + Silk, **Rigger**
-- Hemp + Nettle, **Hawser**
-- Silk + Nettle, **Bramble**
+**The four masteries (DRAFT names, familiar archetype in brackets).** Every name is a real cloth or rope trade, and none of them is a material.
+- **The Anchor** (fighter, tank). Rope, binding and holding the line. The stretch-a-thread-between-two-points verb lives here first. Weapon: the distaff, which is already a staff.
+- **The Dyer** (mage). The transforming art: colour, mordants, and changing what a thing fundamentally is. Historically the trade closest to alchemy, which is exactly the note wanted. Weapon: the spindle.
+- **The Unpicker** (assassin). Undoes seams quietly, unravels, misdirects, moves fast. Note that it never cuts, because shears exist in one pair of hands only (5.9); the assassin of this world takes things apart stitch by stitch instead, which is more frightening anyway. Weapon: the needle.
+- **The Fletcher** (bow and arrow). The ranged tree, and it is native rather than imported: a shuttle is already a thing you shoot across a loom at speed. Weapon: the shuttle, with arrows where a bow makes more sense.
 
-**One class this game must never have (recommendation, and a firm one).** No necromancer, no raising the dead, no summoning a person back. The whole engine of this story is that you cannot have him back, and the false ending exists to prove that a rewoven person is wrong. If the player can raise the dead at level twelve, that ending has no teeth left. So the Lamplighter calls echoes of things and moments, never of people who died, and never of the father, who stays scarce by pillar four.
+**Pair names (DRAFT, and take them or leave them).**
+- Anchor + Dyer, **Felter**
+- Anchor + Unpicker, **Netter**
+- Anchor + Fletcher, **Rigger**
+- Dyer + Unpicker, **Gossamer**
+- Dyer + Fletcher, **Brocader**
+- Unpicker + Fletcher, **Bramble**
+Reserved: **Sampler**, which is the midpoint object in the Horgen attic, memory and pain stitched together. It is too good a word to spend on a class combination unless one of them earns it.
 
-GAP: three ability fantasies per tree, in Max's words. Not names, not numbers, just what he actually wants to DO with thread in a fight.
+**What the old fibre flavours were carrying, and where it went.** The dropped tree names had ideas attached that are worth keeping: light and memory, resilience, speed and deception, and pain turned to armor. The first three moved into the Dyer, the Anchor and the Unpicker respectively. The fourth, pain turned to armor, has no home now that nettle is not a tree. DRAFT: it becomes a late cross-mastery option rather than a class of its own, available to anyone deep enough in any tree, since a mechanic about taking the sting on purpose suits a player who has already committed rather than one choosing at level 2.
+
+**One class this game must never have (recommendation, and a firm one).** No necromancer, no raising the dead, no summoning a person back. The whole engine of this story is that you cannot have him back, and the false ending exists to prove that a rewoven person is wrong. If the player can raise the dead at level twelve, that ending has no teeth left. So whichever mastery ends up carrying summoning, almost certainly the Dyer, it calls echoes of things and moments, never of people who died, and never of the father, who stays scarce by pillar four.
+
+GAP: three ability fantasies per mastery, in Max's words. Not names, not numbers, just what he actually wants to DO with thread in a fight. The archetypes above give each tree a floor, so this is now about what is specific to this world rather than what a tank or a mage generally does.
 
 ### 5.8 Daily ritual (LOCKED)
 
@@ -284,7 +289,7 @@ The fear law (LOCKED): the game only needs to hurt you once, honestly, and the p
 
 Max's pass at what the player picks up, reviewed and answered August 2026. LOCKED where he said yes, DRAFT where a decision is still open.
 
-**Fabrics, the collectible core (LOCKED).** Linen, silk, cotton, hemp, wool, plus nettle (St. Gallen, late) and alpaca (Chile), which the page left out but which are already canon. Four of them carry the skill trees of 5.7: linen (light and memory), hemp (resilience), silk (speed and deception), nettle (pain turned to armor). Cotton is deliberately none of those. It is the common everyday fibre, it drops everywhere, it belongs to no station and no tree, and it is what most ordinary garments are made of. The workhorse.
+**Fabrics, the collectible core (LOCKED).** Linen, silk, cotton, hemp, wool, plus nettle (St. Gallen, late) and alpaca (Chile), which the page left out but which are already canon. None of them is a skill tree, and that separation is deliberate (5.7): fabrics are materials and money, masteries are how you fight, and the two never share a name. Cotton is the common everyday fibre, it drops everywhere, it belongs to no station, and it is what most ordinary garments are made of. The workhorse.
 
 **Materials (LOCKED).** Wood, stone, copper, with gold and silver as the rare pair. The hard things in a soft world, and what the soft world is built on: the loom, the Reed, needles and pins, buckles, the backing of the rosettes. The line law governs them (6): worked wood and stone curve in a healthy world, and only the unraveling makes them straight and pointed.
 
@@ -354,11 +359,12 @@ From Max:
 - [ ] Recognition list (5.4)
 - [x] The two Reed states: colour, light, sound and time all answered (5.2)
 - [x] Hyperfocus collapses time inside the general slowness (5.2)
-- [ ] Cindy and the twenty-one years: confirm the ageing is a charge, not elapsed time (3)
+- [x] The ageing is a charge, not elapsed time; Cindy stays an ordinary cat (3)
 - [ ] Morning stringing scene (5.2)
 - [ ] Death: confirm the visible frayed cloak as the floor (5.6)
-- [ ] Ability fantasies, three per fibre tree, in Max's words (5.7)
-- [ ] Class names: yes or no to Lamplighter, Anchor, Slipknot, Hairshirt and the six pairs (5.7)
+- [ ] Ability fantasies, three per mastery, in Max's words (5.7)
+- [ ] Class names: yes or no to Anchor, Dyer, Unpicker, Fletcher and the six pairs (5.7)
+- [ ] Pain turned to armor: a late cross-mastery option now that nettle is not a tree? (5.7)
 - [ ] Palette words per region, reference board, test screen (6)
 - [ ] One more Munich scene (4)
 - [x] Weekly hours: three a week minimum (9)
