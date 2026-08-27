@@ -72,7 +72,17 @@ DRAFT, the kindness as a mechanic: some NPCs ask for more than they should and A
 This is the structural key the act plan was missing. The father's life runs backwards toward the shore where his thread was spun, and Ari's runs forwards, so the two timelines travel in opposite directions through the same journey and cross somewhere in the middle. It also turns an already LOCKED line from symbol into fact: his posture straightens across the game until his walk matches his father's. He does not merely carry himself better, he grows into the man.
 And it sharpens the true ending to a point. At Mallorca the father has gone all the way back to a boy on the shore waving once, while Ari has become the grown one. They pass each other going opposite ways, and nobody says a word about it.
 DRAFT, and it wants to be true: the ageing is the price, not just the passage of time. Walking his father backwards costs Ari his childhood, a year at a time, and nobody tells him he is paying. That is exactly the ledger the Fates keep, and it hands the false ending a second tell for anyone looking: in the world where his father came back, is Ari seven again?
-Production note, honestly: an ageing protagonist multiplies the most expensive art in the game, because every age needs its own body, its own animation set, and its own rendering of all nine equipment slots. DRAFT mitigation: three discrete ages rather than continuous growth, changing only at act breaks, with silhouette and clothing carrying most of the read. This gets decided before any character art is made, not after.
+**Three ages (LOCKED, Max, August 2026).** Discrete, not continuous growth.
+- *Seven, the boy.* Prologue and Act One, from the attic to Das Nadelkissen.
+- *Twelve or so, the middle.* Act Two and the long journey, Munich among it, where Ari is roughly the age Max was in the Gräfelfing decade. The ages rhyme, which is presumably why the recognition moments already cluster there (4).
+- *Seventeen or eighteen, the young man.* Act Three onward: St. Gallen, the Spinners, the false ending, Mallorca. Old enough that his walk matching his father's is a fact rather than a metaphor.
+
+**Where the changes fall (DRAFT, and the first one is the good one).**
+- Seven to twelve at the Act One climax, which is already LOCKED: Ari dies to Das Nadelkissen, a mittelgroße hand catches his, one frame of the grin, "Nur so gehts". He goes down a small child and gets up five years older. Nothing is explained and nobody remarks on it. The price of the walk (above) has just been charged for the first time somewhere the player can feel it.
+- Twelve to seventeen on the way into St. Gallen, because nobody stands in front of the Fates as a child.
+- Note: the catch is also the first of the three permitted sayings of the phrase (2.3), so the first age change and the first "Nur so gehts" land in the same beat.
+
+Production note, honestly: three ages means three bodies, three animation sets and three renderings of the equipment, which is the most expensive art in the game. Mitigation for MAR to weigh: let the wardrobe carry across ages by re-proportioning rather than re-drawing wherever it can, and reserve bespoke per-age art for the regional signature sets (5.10). Whatever the answer, it is decided before any character art is made, not after.
 It also settles the child Ari note in Der See and RT-011: those are Ari at the beginning, which is exactly where that reference belongs.
 GAP: how does a seven year old fight? The weapons are a weaver's tools, so combat should read as a child improvising with his father's things rather than as a warrior's technique. An animation and art question before it is a systems one.
 **The inherited three, second pass (LOCKED, Max, August 2026).** A sharper reading of the same inheritance. Nothing in it is unique to one person; the distinctiveness is in the combination.
@@ -106,6 +116,7 @@ GAP: The no to the name story as a warm in game joke? Door open: her real voice 
 
 LOCKED: Ari's travel cat, named for the real cat of the years 8 to 18. She is the herald of the visions: ears turn first, tail goes still, eyes fixed on empty air half a second before he arrives. No UI, no chime, just the cat. In the final act the visions stop and Cindy stops staring, and the player feels the absence through the animal. On the Mallorca shore she stares one last long time at the water, at the boy, then turns and looks at Ari. End.
 The cats of the world: the Horgen hub house keeps three cats, one of them called Zoey.
+DRAFT, now that Ari ages (3): Cindy ages with him. He goes from seven to about eighteen, and the real Cindy was the cat of the years eight to eighteen, so the span is very nearly the same one. By the Mallorca shore she is an old cat, and the last long look she gives the water, the boy, and then Ari, is an old animal's. Small art cost, large return.
 GAP (RT-016, open commission): what the real Cindy looked like, markings, colors, how she sat.
 
 ### The sisters
@@ -195,7 +206,8 @@ That gives the pair its cleanest shape. **Unstrung is the perception state, stru
 
 DRAFT, optional, and only if the day cycle earns it: strung burns daylight faster. You get more done and the day is over sooner. True, and possibly too sharp to use.
 
-GAP, small, and the last one in this section: hyperfocus sits in the unstrung column and classically collapses time rather than dragging it. Proposal, which makes both readings stronger rather than choosing between them: unstrung time drags by default, and hyperfocus is the exception inside it, where the grey tunnel closes and the hours vanish without being felt. The slowness is what makes that collapse land. Confirm or correct.
+**Hyperfocus and time (LOCKED by delegation, Max, August 2026: his answer was that this one is mine to decide).** Unstrung time drags by default, and hyperfocus is the exception inside that slowness. When the grey tunnel closes around the one brilliant thing, time stops being felt at all and the hours go without being noticed. The two readings do not compete; the drag is precisely what makes the collapse land.
+Design consequence: hyperfocus is not a slower bullet time, it is a hole in the clock. The player should come out of it and find the light has changed. Which also means both states can lose a day, and they lose it in opposite ways: strung, the hours run fast while you get things done; unstrung, the hours crawl until hyperfocus swallows a handful of them whole.
 GAP: the morning stringing as a thirty second scene.
 
 ### 5.3 Visions (LOCKED)
@@ -286,8 +298,8 @@ DRAFT, and it connects to something that already happened: barefoot is simply th
 On pillar five, one strong set per region: a set means the region's signature silhouette, the look that region gives him, while individual pieces accumulate across the whole game. Max's call, August 2026, is that the nine slots are needed and that the depth comes from more acts per map.
 
 **Bags (LOCKED).** Found, not bought, and the bag is the inventory: small satchel eight slots, big backpack twenty-four, and upward from there.
-DRAFT, and load-bearing. The problem it solves: if tension fibre is stored in the bag like everything else, then finding a bigger bag quietly ends the fibre economy, because a twenty-four slot backpack holds twenty-four doses and nobody rations twenty-four of anything.
-Proposal: the fibre never goes in the bag at all. It lives in its own small holder on the Reed, three to five slots, fixed for the whole game and never enlarged by any bag Ari finds. A quiver, separate from the pack. Bags can then grow as large as the game wants for gear, materials and loot, while the number of doses he can carry stays small and constant, which is the only thing keeping each dose a decision now that stringing is always available (5.2).
+LOCKED (Max, August 2026), and load-bearing. The problem it solves: if tension fibre is stored in the bag like everything else, then finding a bigger bag quietly ends the fibre economy, because a twenty-four slot backpack holds twenty-four doses and nobody rations twenty-four of anything.
+The rule: the fibre never goes in the bag at all. It lives in its own small holder on the Reed, three to five slots, fixed for the whole game and never enlarged by any bag Ari finds. A quiver, separate from the pack. Bags can then grow as large as the game wants for gear, materials and loot, while the number of doses he can carry stays small and constant, which is the only thing keeping each dose a decision now that stringing is always available (5.2).
 
 **Textures.** The title word on the page belongs to art direction rather than inventory; see 6 and the line law.
 
@@ -325,11 +337,12 @@ From Max:
 - [ ] The promise to yourself (1)
 - [ ] The Fates when met (2.1)
 - [x] Ari ages across the game (3)
-- [ ] Ageing: three discrete ages or continuous? Decide before any character art (3)
+- [x] Ageing: three discrete ages, seven, twelve, seventeen or eighteen (3)
 - [ ] Ari: what does he have that Max does not? (3) The inherited set is done; this is the one that decides whether he is a character or a portrait
 - [ ] Recognition list (5.4)
 - [x] The two Reed states: colour, light, sound and time all answered (5.2)
-- [ ] Hyperfocus and time: does it collapse inside the general slowness? (5.2, small)
+- [x] Hyperfocus collapses time inside the general slowness (5.2)
+- [ ] Does Cindy visibly age alongside Ari? (3, small)
 - [ ] Morning stringing scene (5.2)
 - [ ] Death: confirm the visible frayed cloak as the floor (5.6)
 - [ ] Ability fantasies, three per fibre tree, in Max's words (5.7)
@@ -342,7 +355,7 @@ From Max:
 - [x] Classes: neutral start, first fibre at level 2, second later (5.7)
 - [ ] RT-016: Cindy, what she really looked like (3)
 - [x] Currency: the bolts economy, confirmed (5.10)
-- [ ] The fibre pouch: confirm it stays outside the bag (5.10), now that stringing is always available
+- [x] The fibre pouch stays outside the bag, three to five fixed slots on the Reed (5.10)
 - [x] The ADHD item: usable whenever, including mid fight (Max, August 2026, 5.2)
 - [x] Health is mending, mana is a spool (5.10)
 - [x] Cotton is the common fibre, no station, no tree (5.10)
