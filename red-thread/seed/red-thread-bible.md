@@ -140,7 +140,7 @@ Her words, verbatim, reflowed from the page. This answers the oldest ask on the 
 
 ### 5.1 Fabric economy (LOCKED)
 
-No gold. Enemies drop what they were made of: thread, scraps, cloth. Regional fibres as above. All gear is clothing Ari weaves, visible on his body, the red thread through the best pieces. One strong set per region. Late game: weave for NPCs, repair frayed people themselves.
+No gold. Enemies drop what they were made of: thread, scraps, cloth. Regional fibres as above. All gear is clothing Ari weaves, visible on his body, the red thread through the best pieces. One strong set per region. Late game: weave for NPCs, repair frayed people themselves. No coins either: cloth is the currency, and the DRAFT denominations are in 5.10.
 
 ### 5.2 The Reed (LOCKED rules)
 
@@ -187,6 +187,36 @@ The fear law (LOCKED): the game only needs to hurt you once, honestly, and the p
 **Das Nadelkissen (RT-013), Act One boss.** The Igel's dark mirror, the Great Pincushion, hoarder of stolen pins. Slow but punishing, spiked so careless jumps hurt, mace tail, huge health, low cunning. Its one enormous hit is the scripted death that triggers the catch.
 **The Triplets (RT-014), boss guarding the Spinners' seat.** Three identical figures cut from the same Schnittmuster, paper pattern people, tissue thin, vanishing when they turn edge on. Low health, lots of tricks, annoying on purpose, and the double and swap lasts only shortly: a brief shuffle flurry, then a calm honest phase. Trick, breathe, trick, breathe. Only the true one's defeat ends it. Trains the exact recognition skill the false ending will need. Echo of the three Fates.
 
+### 5.10 Items, objects and textures (DRAFT, notebook page RT-017)
+
+Max's first pass at what the player picks up. Everything here is DRAFT except where it restates the LOCKED economy of 5.1.
+
+**Fabrics, the collectible core.** Linen, silk, cotton, hemp, wool. Four of those already carry station and tree meaning: linen (Der See, light and memory), wool (London), silk (Málaga, speed and deception), hemp (resilience). The page leaves out two that are already canon, nettle (St. Gallen, late) and alpaca (Chile), and adds one that is new, cotton. GAP: does cotton get a station of its own, or is it deliberately the common everyday fibre, the one that drops everywhere and belongs to nobody?
+
+**Materials.** Wood, stone, copper, with gold and silver as the rare pair. These are the hard things in a soft world, and they are what the soft world is built on: the loom, the Reed, needles and pins, buckles, the backing of the rosettes. The line law still governs them (6): worked wood and stone in a healthy world curve, and only the unraveling makes them straight and pointed.
+
+**Gemstones (open on the page).** DRAFT: if they enter, they are never sparkle loot. They are the eyes of things, which in this world means buttons, and the beads sewn onto a sampler. A gem here is something you sew on.
+
+**Money (Max asked for a recommendation).** 5.1 LOCKS no gold, and the recommendation is to keep that, hard. The fabric economy is one of the most distinctive things the game has and it is bound to the father: a weaver's son does not carry coins, he carries cloth, and 5.1 already has apothecaries and haberdashers paid in cloth. Gold would be the one place this game looks like every other RPG.
+DRAFT denominations, so paying in cloth stays legible without a coin purse: thread as small change, scrap as the common unit, bolt as the large one, with prices quoted in bolts. Gold and silver stay exactly what the notebook page makes them, materials, which is also what keeps the medals of 3 and 5.5 precious.
+On the series question: the north star (3) is that each game is one thread and the series is the cloth. Cloth as the shared standard does the unifying job a gold standard would, in the family's own material. If a future game needs a hard currency for its own reasons, that is that game's call.
+
+**Potions.** Three, and only the first two are simple.
+- *Health.* Needs a textile-native name. DRAFT: mending, carried as a patch or a darning kit. Ari is cloth, so he is repaired, not healed.
+- *Mana.* Needs a name, and first needs an answer to what weaving actually spends. DRAFT: it spends thread, so the pickup is a full spool. Health is the integrity of the cloth, mana is how much thread is left on the reel.
+- *The ADHD one.* This already exists in the bible: it is the tension fibre of 5.2, the thing the Reed is strung with. Two notes carry over from LOCKED text, and one question is new and only Max can answer it.
+  - Finding it in drops is compatible with canon, which already says the fibre is gathered wild or bought prepared. Drops change where it comes from, not what it is.
+  - It is never named ADHD in the game and never framed as a cure. Pillar three is show, never say, and 5.2 LOCKS that the Reed is never a moral meter, and pillar two LOCKS that neither state is the good world.
+  - GAP, and it turns on a LOCKED rule: 5.2 says the Reed is strung in the morning and never mid fight. A potion you drink the moment you need it is the opposite of that rule. Either the drops are fibre you carry to tomorrow's ritual, which keeps the rule intact and is the safer reading of the page, or the rule bends and stringing becomes possible mid fight. The second is a change to LOCKED canon and belongs to Max alone.
+
+**Equipment slots.** Head, shoulder, top, hands, pants, shoes, socks, underwear, bag, plus a weapon and a second weapon, where a two-handed weapon takes both. Because 5.1 LOCKS that all gear is clothing Ari weaves, every one of these is a garment he made, and the socks and underwear slots are the joke and the tenderness at once: a boy who weaves his own socks because nobody else is going to now.
+GAP: pillar five says one strong set per region. Nine slots is a lot of pieces per region for a solo project. Does a set mean all nine, or does the visible silhouette carry three or four while the rest stay quiet stat pieces?
+
+**Bags.** Found, not bought, and the bag is the inventory: small satchel eight slots, big backpack twenty-four, and so on upward.
+Caution, and it matters: 5.2 LOCKS a small carry limit for tension fibre precisely so the question is planning and not rationing. If the fibre lives in the bag, a twenty-four slot backpack quietly deletes that tension. DRAFT: the fibre has its own dedicated pouch on the Reed, a fixed few slots that no bag upgrade ever grows.
+
+**Textures.** The title word on the page belongs to art direction rather than to inventory; see 6 and the line law.
+
 ## 6. Art direction
 
 LOCKED: hand painted, released under MAR. AI in the kitchen, never on the plate: AI may propose variations and specs, only MAR paints; no AI generated final art anywhere in the shipped game.
@@ -227,6 +257,12 @@ From Max:
 - [ ] One more Munich scene (4)
 - [ ] Weekly hours (9)
 - [ ] RT-016: Cindy, what she really looked like (3)
+- [ ] Currency: confirm cloth denominations, thread, scrap, bolt (5.10)
+- [ ] The ADHD item: morning ritual only, or mid fight? A LOCKED rule turns on it (5.2, 5.10)
+- [ ] Names for the health and mana pickups (5.10)
+- [ ] Cotton: its own station, or the common fibre? (5.10)
+- [ ] How many of the nine slots are visible in a regional set? (5.10)
+- [ ] Gemstones: in as buttons and beads, or out? (5.10)
 
 From Mama, her pace:
 - [ ] Love letters kept?
@@ -260,3 +296,4 @@ Decisions with no deadline:
 - RT-014 Boss 2: the Triplets, full kit noted on page.
 - RT-015 Red figure (dad): faceless, one careful reaching hand, applauding pose, medals. The emotional center of the sketchbook.
 - RT-016 Cindy: open commission.
+- RT-017 Notebook page, items and objects: fabrics, materials, potions, equipment slots, bags. Max's handwriting, the source for 5.10.

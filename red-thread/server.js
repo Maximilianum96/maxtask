@@ -96,8 +96,10 @@ function renderMarkdown(md) {
   let list = null; // 'ul' | 'ol'
   let para = [];
   let quote = null; // raw (unescaped) inner lines, rendered recursively
+  let subOpen = false; // one level of nested "  - " bullets
 
-  const closeList = () => { if (list) { out.push(`</${list}>`); list = null; } };
+  const closeSub = () => { if (subOpen) { out.push('</ul></li>'); subOpen = false; } };
+  const closeList = () => { closeSub(); if (list) { out.push(`</${list}>`); list = null; } };
   const closePara = () => {
     if (para.length) {
       out.push('<p>' + para.map(inline).join('<br>') + '</p>');
@@ -129,16 +131,26 @@ function renderMarkdown(md) {
       continue;
     }
     if (/^---+\s*$/.test(line)) { closePara(); closeList(); out.push('<hr>'); continue; }
-    const ul = line.match(/^-\s+(.*)$/);
+    const ul = line.match(/^(\s*)-\s+(.*)$/);
     if (ul) {
       closePara();
-      if (list !== 'ul') { closeList(); out.push('<ul>'); list = 'ul'; }
-      const cb = ul[1].match(/^\[( |x)\]\s+(.*)$/i);
+      // Indented bullets nest one level inside the preceding <li>.
+      const nested = ul[1].length >= 2 && list === 'ul' && out.length > 0;
+      if (!nested) {
+        closeSub();
+        if (list !== 'ul') { closeList(); out.push('<ul>'); list = 'ul'; }
+      } else if (!subOpen) {
+        const last = out.length - 1;
+        if (out[last].endsWith('</li>')) out[last] = out[last].slice(0, -5);
+        out.push('<ul>');
+        subOpen = true;
+      }
+      const cb = ul[2].match(/^\[( |x)\]\s+(.*)$/i);
       if (cb) {
         const checked = cb[1].toLowerCase() === 'x' ? ' checked' : '';
         out.push(`<li class="task"><input type="checkbox" disabled${checked}> ${inline(cb[2])}</li>`);
       } else {
-        out.push(`<li>${inline(ul[1])}</li>`);
+        out.push(`<li>${inline(ul[2])}</li>`);
       }
       continue;
     }
