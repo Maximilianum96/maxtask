@@ -39,7 +39,7 @@ DRAFT, first sixty seconds: a cat bats a loose red thread; the camera follows th
 DRAFT, inciting signs: the animals feel it first. Cows will not graze, horses stand staring at the lake. Wrongness before spectacle, felt by creatures who never lie.
 DRAFT: the first vision arrives the first morning Ari strings the Reed. The father's tool, used the father's way, calls him.
 
-**The journey, his life walked backwards (LOCKED in principle).** Zürich, then the stations in reverse: London, USA (postcard), Munich, St. Gallen, then south into the light, Málaga, Mallorca. Chile's placement pending Mama's timeline.
+**The journey, his life walked backwards (LOCKED in principle).** Zürich, then the stations in reverse: London, USA (postcard), Munich, St. Gallen, then south into the light, Málaga, Mallorca. Chile sits with the lake years rather than outside them (4.6). And Ari ages forwards while his father's life runs backwards (3), so the two timelines move through the same journey in opposite directions and cross somewhere in the middle.
 
 **Act one climax (LOCKED).** Ari dies to the first boss, Das Nadelkissen, losing to sheer weight, not trickery. A mittelgroße hand catches his. One frame of the grin. "Nur so gehts!" Never explained, never repeated.
 
@@ -68,7 +68,12 @@ Child Ari in Der See (LOCKED, reference RT-011): the curly mop, hands always one
 LOCKED (Max, August 2026): seven years old when the game begins. He does not paint. He is silent, never voiced and never given dialogue lines, which is pillar three holding at the level of the protagonist himself: a boy who says nothing, in a game whose one spoken line is his father's. Only the visions ever say Aristoteles out loud.
 The three traits (LOCKED): chaotic creativity, high impulsivity, and a big kindness that is sometimes too big, the kind that gets used. The first two are the unstrung Reed described from the outside, so Ari does not merely carry the Reed, he is it, and that is why his father's tool answers to him.
 DRAFT, the kindness as a mechanic: some NPCs ask for more than they should and Ari cannot refuse, so the player watches him hand over fibre, time or a finished garment to someone who will not give back. Never punished by the game, never called a mistake, and once, late, someone gives back far more than they took.
-GAP: does he age across the game? Everything else waits on this. It also decides what the child Ari note in Der See and RT-011 mean: if he is seven throughout, then child Ari simply is Ari.
+**He ages (LOCKED, Max, August 2026).** Seven at the first frame, and older by the last.
+This is the structural key the act plan was missing. The father's life runs backwards toward the shore where his thread was spun, and Ari's runs forwards, so the two timelines travel in opposite directions through the same journey and cross somewhere in the middle. It also turns an already LOCKED line from symbol into fact: his posture straightens across the game until his walk matches his father's. He does not merely carry himself better, he grows into the man.
+And it sharpens the true ending to a point. At Mallorca the father has gone all the way back to a boy on the shore waving once, while Ari has become the grown one. They pass each other going opposite ways, and nobody says a word about it.
+DRAFT, and it wants to be true: the ageing is the price, not just the passage of time. Walking his father backwards costs Ari his childhood, a year at a time, and nobody tells him he is paying. That is exactly the ledger the Fates keep, and it hands the false ending a second tell for anyone looking: in the world where his father came back, is Ari seven again?
+Production note, honestly: an ageing protagonist multiplies the most expensive art in the game, because every age needs its own body, its own animation set, and its own rendering of all nine equipment slots. DRAFT mitigation: three discrete ages rather than continuous growth, changing only at act breaks, with silhouette and clothing carrying most of the read. This gets decided before any character art is made, not after.
+It also settles the child Ari note in Der See and RT-011: those are Ari at the beginning, which is exactly where that reference belongs.
 GAP: how does a seven year old fight? The weapons are a weaver's tools, so combat should read as a child improvising with his father's things rather than as a warrior's technique. An animation and art question before it is a systems one.
 **The inherited three, second pass (LOCKED, Max, August 2026).** A sharper reading of the same inheritance. Nothing in it is unique to one person; the distinctiveness is in the combination.
 1. *He removes his own leverage on purpose.* He would rather show what a thing cost him to make than win the trade: a rare willingness to argue from the weaker position.
@@ -156,7 +161,7 @@ Her words, verbatim, reflowed from the page. This answers the oldest ask on the 
 
 ### 5.1 Fabric economy (LOCKED)
 
-No gold. Enemies drop what they were made of: thread, scraps, cloth. Regional fibres as above. All gear is clothing Ari weaves, visible on his body, the red thread through the best pieces. One strong set per region. Late game: weave for NPCs, repair frayed people themselves. No coins either: cloth is the currency, and the DRAFT denominations are in 5.10.
+No gold. Enemies drop what they were made of: thread, scraps, cloth. Regional fibres as above. All gear is clothing Ari weaves, visible on his body, the red thread through the best pieces. One strong set per region. Late game: weave for NPCs, repair frayed people themselves. No coins either: cloth is the currency, and the denominations are in 5.10.
 
 ### 5.2 The Reed (LOCKED rules)
 
@@ -261,7 +266,7 @@ Max's pass at what the player picks up, reviewed and answered August 2026. LOCKE
 
 **Gemstones (LOCKED).** Never sparkle loot. A gem in this world is something you sew on: buttons, and the beads stitched onto a sampler. They are the eyes of things.
 
-**Money: paying in cloth (DRAFT, awaiting Max's yes).** 5.1 LOCKS no gold. This is how the cloth economy works in the player's hands.
+**Money: paying in cloth (LOCKED, Max, August 2026).** 5.1 LOCKS no gold. This is how the cloth economy works in the player's hands.
 - *The unit.* One counter, measured in bolts, a bolt being a finished length of cloth. Small change is scraps, ten scraps to a bolt, prices quoted in bolts. It sits in the corner of the screen as a folded bolt with a number beside it, exactly where gold would sit in another game, and it is never coins.
 - *It does not eat bag slots.* Cloth money is a measure, not stacks in the bag, so buying something is never inventory tetris. Raw fibre and finished garments are physical and do take slots; the money does not.
 - *Where it comes from, and this is the part that matters.* Ari does not find money, he makes it. The Frayed drop what they were made of, thread and scraps and torn cloth (5.1 LOCKED), and Ari takes that to a loom and weaves it into bolts. Weaving is therefore both crafting and minting: the same verb that makes his coat makes his money, and the weaver's son funds himself by doing exactly what his father did. Fibre in, bolt out, bolt buys.
@@ -281,7 +286,8 @@ DRAFT, and it connects to something that already happened: barefoot is simply th
 On pillar five, one strong set per region: a set means the region's signature silhouette, the look that region gives him, while individual pieces accumulate across the whole game. Max's call, August 2026, is that the nine slots are needed and that the depth comes from more acts per map.
 
 **Bags (LOCKED).** Found, not bought, and the bag is the inventory: small satchel eight slots, big backpack twenty-four, and upward from there.
-DRAFT, and now load-bearing: the tension fibre stays out of the bag, in a dedicated pouch on the Reed, a fixed few slots that no bag upgrade ever grows. This mattered before and matters more now that stringing is always available, because the small limit is the only thing left holding that decision open. If the fibre lives in a twenty-four slot backpack, it stops being a decision at all.
+DRAFT, and load-bearing. The problem it solves: if tension fibre is stored in the bag like everything else, then finding a bigger bag quietly ends the fibre economy, because a twenty-four slot backpack holds twenty-four doses and nobody rations twenty-four of anything.
+Proposal: the fibre never goes in the bag at all. It lives in its own small holder on the Reed, three to five slots, fixed for the whole game and never enlarged by any bag Ari finds. A quiver, separate from the pack. Bags can then grow as large as the game wants for gear, materials and loot, while the number of doses he can carry stays small and constant, which is the only thing keeping each dose a decision now that stringing is always available (5.2).
 
 **Textures.** The title word on the page belongs to art direction rather than inventory; see 6 and the line law.
 
@@ -318,7 +324,8 @@ Consequence, stated once and without drama: milestone estimates have to be writt
 From Max:
 - [ ] The promise to yourself (1)
 - [ ] The Fates when met (2.1)
-- [ ] Ari: does he age across the game? (3) Everything about his combat read waits on this
+- [x] Ari ages across the game (3)
+- [ ] Ageing: three discrete ages or continuous? Decide before any character art (3)
 - [ ] Ari: what does he have that Max does not? (3) The inherited set is done; this is the one that decides whether he is a character or a portrait
 - [ ] Recognition list (5.4)
 - [x] The two Reed states: colour, light, sound and time all answered (5.2)
@@ -334,7 +341,7 @@ From Max:
 - [x] Death cost: the cloak frays, paid in fabric (5.6)
 - [x] Classes: neutral start, first fibre at level 2, second later (5.7)
 - [ ] RT-016: Cindy, what she really looked like (3)
-- [ ] Currency: yes or no to the bolts economy exactly as written in 5.10
+- [x] Currency: the bolts economy, confirmed (5.10)
 - [ ] The fibre pouch: confirm it stays outside the bag (5.10), now that stringing is always available
 - [x] The ADHD item: usable whenever, including mid fight (Max, August 2026, 5.2)
 - [x] Health is mending, mana is a spool (5.10)
