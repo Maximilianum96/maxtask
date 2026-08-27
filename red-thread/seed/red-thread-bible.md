@@ -70,7 +70,18 @@ The three traits (LOCKED): chaotic creativity, high impulsivity, and a big kindn
 DRAFT, the kindness as a mechanic: some NPCs ask for more than they should and Ari cannot refuse, so the player watches him hand over fibre, time or a finished garment to someone who will not give back. Never punished by the game, never called a mistake, and once, late, someone gives back far more than they took.
 GAP: does he age across the game? Everything else waits on this. It also decides what the child Ari note in Der See and RT-011 mean: if he is seven throughout, then child Ari simply is Ari.
 GAP: how does a seven year old fight? The weapons are a weaver's tools, so combat should read as a child improvising with his father's things rather than as a warrior's technique. An animation and art question before it is a systems one.
-GAP: three traits deliberately his own, as opposed to the three above, which read as inherited.
+**The inherited three, second pass (LOCKED, Max, August 2026).** A sharper reading of the same inheritance. Nothing in it is unique to one person; the distinctiveness is in the combination.
+1. *He removes his own leverage on purpose.* He would rather show what a thing cost him to make than win the trade: a rare willingness to argue from the weaker position.
+   In Ari: he cannot hide a price or a seam. Put in front of a merchant's scales, he says what the cloth actually cost him. DRAFT, and it is a friction worth keeping rather than smoothing: silk is the tree of speed and deception (5.7), so a boy constitutionally unable to deceive either learns that tree against his own grain or never takes it. Both are interesting; neither should be free.
+2. *The argument travels.* A principle held in one domain is held in all of them, instead of being dropped wherever convenience starts. Own rather than rent, make rather than buy, keep it local and keep it yours.
+   In Ari: he treats a torn sock and a torn world as the same problem at different sizes, which is the entire plot in one sentence. It is also why he weaves his own clothing (5.1) rather than being handed it. Making rather than being given is not a mechanic imposed on him, it is a trait he has.
+3. *He generates concepts far faster than he can execute them.* Max's own note, kept with its edge intact because the honesty is the point: unusual as a rate, and also the trait most likely to cost him.
+   In Ari: he starts more than he finishes, and the unstrung state of 5.2 is exactly this from the inside, all those glowing side paths and the main thread that wanders.
+   DRAFT: half-woven things accumulate, in the attic and in the bag, each one something he began. The game never nags about them and never counts them. Late, finishing exactly one matters more than finishing all of them ever could.
+
+Source note: this came as an outside character reading of Max rather than in his own voice, and its concrete examples are drawn from his working life rather than from the game.
+
+GAP, still open and now sharper: the bible asked for three traits of Max's that Ari carries AND three deliberately Ari's own. The set above is the inherited one, deepened. What Ari has that Max does not is still unanswered, and it is the question of whether Ari is a character or a portrait.
 
 ### Der Weber, the father
 
@@ -308,7 +319,7 @@ From Max:
 - [ ] The promise to yourself (1)
 - [ ] The Fates when met (2.1)
 - [ ] Ari: does he age across the game? (3) Everything about his combat read waits on this
-- [ ] Ari: three traits deliberately his own (3)
+- [ ] Ari: what does he have that Max does not? (3) The inherited set is done; this is the one that decides whether he is a character or a portrait
 - [ ] Recognition list (5.4)
 - [x] The two Reed states: colour, light, sound and time all answered (5.2)
 - [ ] Hyperfocus and time: does it collapse inside the general slowness? (5.2, small)
