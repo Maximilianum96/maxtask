@@ -72,7 +72,8 @@ GAP: Age at start. Does he paint? Voice or quiet protagonist? Three traits of Ma
 LOCKED: Booming laugh (the secret found sound). Confident upright gait (how a faceless figure is recognized). Mittelgroße hands (the catch is an ordinary hand). Approached strangers first. Cried at romance and at births; turned away when moved, shoulders once, then back with the grin. Proud and not always able to say it. Ambitious, hard on himself in London. Sociable, then needed quiet at home. 7:30, wash, shared breakfast, loving goodbye with a hug. Steak, Italian and Spanish food, her cooking. Read all newspapers and books. Music: blues, soul, Stones, Prince, Sinatra, Etta James, Falco, Salomon Burke, Klassik. Vision arc: acts, then advises, then appears, then absence.
 The vision's gestures (LOCKED, reference RT-015): exactly two. The catch when Ari falls, and the silent applause when Ari does something worthy. The vision is the father with the pride finally visible.
 The medals (LOCKED, reference RT-015): woven honors, rosettes of ribbon and thread on his chest, the marks nations gave the man who tied them together. They regain their color one by one as Ari collects the unsaid pride sentences; by the final act the chest is full.
-GAP: What he feared. What he hummed. One story from Chile. His dream at 30.
+Confirmed by Mama's account of the Honorarkonsul years (4.6): he found a Draht to anyone within minutes, and gave a health minister and a family who opened their door in the Atacama exactly the same respect. Her own word for what he did with people is Draht, a wire, a thread. Nobody prompted her with the game's metaphor.
+GAP: What he feared. What he hummed. His dream at 30.
 
 ### Die Mutter
 
@@ -94,7 +95,7 @@ GAP: Their colors and fibres. How present in Horgen scenes.
 ### Supporting cast
 
 LOCKED: Reed users recognizable by the comb at the belt, a quiet nod. Strangers across the stations each hold one pride sentence. Apothecaries and haberdashers sell tension fibre, paid in cloth.
-GAP: Two or three recurring road faces, if any.
+GAP: Two or three recurring road faces, if any. Real candidates now on file from the Honorarkonsul years (4.6): the Baron, the two ambassadors, the two wives.
 
 ## 4. Stations
 
@@ -104,7 +105,7 @@ GAP: Two or three recurring road faces, if any.
 - **USA / Whittier (postcard).** Bright, glossy, synthetic thread that cannot hold a pattern. The single memory: him writing home, missing her. Tender, not mocking. LOCKED as postcard.
 - **Munich (full chapter, LOCKED).** The only station with two sets of footprints: the father at seventeen falling in love on these streets, and the boy who came at eight without him, the Gräfelfing decade, ages 8 to 18, the Cindy years. Recognition moments cluster here; Ari's own memories begin bleeding into the father's stations. Includes the Gräfelfing meadow vignette: barefoot summer grass, the first Nadel sting, where it really happened. GAP: one more specific Munich scene.
 - **St. Gallen (chapter, compact).** The Institut on its hill, seat of the Spinners. Act three begins. Fibre: nettle, high in the Alps.
-- **Chile (full chapter, pending).** The ambassador years. Fibre: alpaca; the Atacama as the grey slack thread desert. GAP: everything, awaiting Mama's timeline and one story.
+- **Chile (full chapter).** The Honorarkonsul years. Canon correction from Mama's account (4.6): this was never an expat posting. He was Chile's honorary consul *in Zürich*, sworn in with a great reception at the FIFA building, and Chile itself was a journey they were invited on. So the station stands on two grounds: the Zürich receptions, where a man who tied nations together made two and three new friends an evening, and the invited journey south that ends in the Atacama. This also settles the placement question: the station overlaps the lake years rather than sitting outside them. Fibre: alpaca; the Atacama as the grey slack thread desert. The full-chapter pick is now earned, this station has more real material than any except Der See. GAP: the years. She gave the story before the timeline.
 - **Málaga (chapter).** The schoolyard by the sea, flamenco guitar over soul. Fibre: silk.
 - **Mallorca (finale).** The shore, July 1963. The true ending.
 
@@ -113,6 +114,27 @@ Production rule LOCKED: four or five full chapters maximum, everything else a po
 ### 4.5 The friendly world (LOCKED, references RT-001 to RT-010)
 
 Patched cows: cloth patches, animals lovingly mended by their farmers, a quietly repaired world. Loop wool sheep: wool drawn as loops of thread, soft walking tangles, animals made of the world's material. A village dog in little knitted wool boots. The Igel as needle gatherer: trundles the meadows collecting lost pins, the living pincushion, the tailor's oldest friend; the path behind an Igel is safe. The Eichhörnchen as bobbin hoarder: caches spools in tree hollows, befriend them to find stashes; tail is two thirds of the silhouette. The bee, innocent always: flax pollinator, wax strengthens thread at the bench. The swan on Der See; DRAFT: the first hole in the sky appears as its broken reflection beside a swan before the player ever looks up. Sparrows on the rooftops. The Owl: Ari's travel guide who flies the passport map between stations (the Big Owl honored), and perches in the Horgen attic above the loom, the night reader's bird.
+
+### 4.6 The Honorarkonsul years, Mama's account (source, August 2026)
+
+Her words, verbatim, reflowed from the page. This answers the oldest ask on the Chile list. The story came before the timeline, so the years are still open.
+
+> Papa Station Zeit als Honorarkonsul von Chile
+>
+> Es gab in dieser Zeit viele gesellschaftliche Anlässe, wo Papa auch zwei bis drei neue Freunde kennengelernt hat. Sein häufiger Begleiter war Baron Michael Reich von Filski von der spanischen Handelskammer, ein guter Freund war der damalige spanische Botschafter in Zürich sowie der deutsche Botschafter. Mit den beiden Ehefrauen habe ich mich auch sehr gut verstanden und wir trafen uns auch gerne alle einfach ab und zu privat. Seine Einführung feierte er in dem FIFA Gebäude in Zürich, wo er einen grossen Empfang gab. Da hab ich noch ein kleines Fotoalbum, das ich Dir zeigen kann. Er war sehr stolz über diese Nominierung und ich hab mich sehr für ihn gefreut. Ich erinnere mich, dass einmal der harte Kern von unseren Botschaftsfreunden spontan zum Grillen zu uns nach Hause kamen, völlig entspannt und unkompliziert. Ich denke, diese südländische Leichtigkeit hat Deinem Papa im Gegensatz zu der Schweizer Verschlossenheit sehr gut getan. Wir wurden dann auch nach Chile eingeladen, wo wir viele interessante Menschen trafen. Ich erinnerte mich, dass wir von der chilenischen Gesundheitsministerin empfangen wurden. Papa hat ihr einen Scheck für Kinderkrankenhäuser übergeben. Wir haben ausserhalb von Santiago de Chile das ganze Land bereist und waren einmal auf einer grossen Farm und ein anderes Mal in ein schönes Strandhaus von Freunden eingeladen. Zum Abschluss mieteten wir uns einen Jeep und fuhren in die Atacamawüste, wo wir nach längerer Fahrt Einheimische baten, auf die Toilette zu gehen. Sie luden uns zum Café ein und wir verweilten einen ganzen Nachmittag. Dein Vater konnte mit allen Menschen gut umgehen, er hat jeden mit Respekt behandelt und sofort einen Draht gefunden. Von seinen Aktivitäten als Honorarkonsul in Zürich habe ich sonst nicht mehr mit bekommen, da ich tagsüber gearbeitet habe, ich weiss nur, dass Papa sich immer mit interessanten Leuten zum Geschäftsessen getroffen hat.
+
+**The word she used (note).** "Er hat jeden mit Respekt behandelt und sofort einen Draht gefunden." Asked to remember Chile, she reached for a wire, a thread, to say what he did with people. Reserved: this sentence is a candidate for the dedication page, or for the moment the vision's face completes.
+
+**Faces now on file.** Baron Michael Reich von Filski of the Spanish chamber of commerce, his frequent companion. The Spanish ambassador in Zürich and the German ambassador, both good friends, and both wives, whom she was close to. The hard core who came unannounced to grill.
+
+**DRAFT beats drawn from it, awaiting yes.**
+- **The investiture at the FIFA building.** The one ceremony in the game where a medal is pinned on rather than won back. Playable as the station's opening: a great hall, a reception he is giving, and a man moving through it tying two and three new friendships in an evening. Whatever Ari collects here he collects by standing near his father and watching him work a room.
+- **The spontaneous Grill.** The hard core of the embassy friends arriving unannounced, completely relaxed, and the cloth of the house loosening to hold them. Her reading is the design note: the southern lightness did him good against the Swiss closedness. Mechanically the one scene where the right tension is looser than Ari thinks it should be.
+- **The cheque for the children's hospitals.** Received by the Chilean health minister, a thread tied between a small country's need and a room in Zürich. The unsaid pride sentence for this station is somewhere in that room.
+- **The afternoon in the Atacama (station climax).** A rented jeep, a long drive into the grey slack thread desert, and a knock on a stranger's door to ask for a toilet. They were invited in for coffee and stayed the whole afternoon. In a desert where every thread hangs slack, tension comes back through an ordinary act of walking up to strangers. This is pillar four and the LOCKED trait "approached strangers first" in one scene, and it really happened.
+- Also on the map, unplaced: the big farm, and the friends' beach house.
+
+**Heirloom, open.** The small photo album from the FIFA reception. She offered to show it. Photograph every page before anything else, heirlooms first.
 
 ## 5. Systems
 
@@ -141,6 +163,7 @@ GAP: Max's list, five to ten entries, where he already recognizes the father in 
 
 Strangers hold the sentences he said about his family when they were not in the room. Ari collects what the child never heard. Each collected sentence returns color to one medal on the vision's chest.
 Note: seven real sentences exist, in her voice. Whether they enter verbatim, echoed, or stay private is a decision with no deadline. Reserved if ever wanted: the dedication. Für einen grossen Mann.
+The Honorarkonsul nomination (4.6) is the one honor he was openly and uncomplicatedly proud of, and she was proud with him. DRAFT: its rosette is the single medal already in color when the game begins, so the faceless figure's empty chest has one lit mark to measure all the others against.
 
 ### 5.6 Death and the thread
 
@@ -178,8 +201,8 @@ GAP: their song (ask pending). What he hummed. MAR's seed melody. Voice acting v
 
 ## 8. Family material pipeline
 
-Collected: birth and school stations, Zürich homes, daily rituals, Sundays, food, music, temperament, the young man in love, London pressure, USA homesickness, seven pride sentences, one dedication line. From Max's own returning memory: walks around Horgen with nanny and sisters past cows and horses, lifelong cats and the Zoey continuation, Cindy of the 8 to 18 years, the Gräfelfing bee sting, the long haired boy mistaken for a girl on a holiday flight.
-Open asks for Mama, her pace, closed doors stay closed: the love letters kept? One song that was theirs. The stations reflection. Chile timeline and one story. What he hummed.
+Collected: birth and school stations, Zürich homes, daily rituals, Sundays, food, music, temperament, the young man in love, London pressure, USA homesickness, seven pride sentences, one dedication line, and the Honorarkonsul years in full (4.6, her first long written account). From Max's own returning memory: walks around Horgen with nanny and sisters past cows and horses, lifelong cats and the Zoey continuation, Cindy of the 8 to 18 years, the Gräfelfing bee sting, the long haired boy mistaken for a girl on a holiday flight.
+Open asks for Mama, her pace, closed doors stay closed: the love letters kept? One song that was theirs. The stations reflection. The Chile years, meaning the dates, now that the story itself has come. What he hummed. The small FIFA reception photo album she offered to show, photographed page by page.
 Open from Max: memories are returning fragment by fragment; keep sending them raw. Plus the ADHD textures (5.2), recognition list (5.4), death cost (5.6), the promise (1).
 Rules LOCKED: record voice memos when she wanders, tangents most of all. Save all screenshots outside WhatsApp, backed up twice. Heirlooms first, design material second.
 
@@ -208,7 +231,9 @@ From Max:
 From Mama, her pace:
 - [ ] Love letters kept?
 - [ ] Their song
-- [ ] Chile timeline and one story
+- [x] Chile, the story (received August 2026, see 4.6)
+- [ ] Chile, the years (she gave the story before the timeline)
+- [ ] The FIFA reception photo album, photographed page by page
 - [ ] The stations reflection
 - [ ] What he hummed
 
