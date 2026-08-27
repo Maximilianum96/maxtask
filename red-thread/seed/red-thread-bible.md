@@ -72,15 +72,24 @@ DRAFT, the kindness as a mechanic: some NPCs ask for more than they should and A
 This is the structural key the act plan was missing. The father's life runs backwards toward the shore where his thread was spun, and Ari's runs forwards, so the two timelines travel in opposite directions through the same journey and cross somewhere in the middle. It also turns an already LOCKED line from symbol into fact: his posture straightens across the game until his walk matches his father's. He does not merely carry himself better, he grows into the man.
 And it sharpens the true ending to a point. At Mallorca the father has gone all the way back to a boy on the shore waving once, while Ari has become the grown one. They pass each other going opposite ways, and nobody says a word about it.
 DRAFT, and it wants to be true: the ageing is the price, not just the passage of time. Walking his father backwards costs Ari his childhood, a year at a time, and nobody tells him he is paying. That is exactly the ledger the Fates keep, and it hands the false ending a second tell for anyone looking: in the world where his father came back, is Ari seven again?
-**Three ages (LOCKED, Max, August 2026).** Discrete, not continuous growth.
+**Three ages: seven, sixteen, twenty-eight (LOCKED, Max, August 2026).** Discrete, not continuous growth. Max proposed this spread over an earlier and narrower one, and it is the better set for three reasons that have nothing to do with sentiment.
 - *Seven, the boy.* Prologue and Act One, from the attic to Das Nadelkissen.
-- *Twelve or so, the middle.* Act Two and the long journey, Munich among it, where Ari is roughly the age Max was in the Gräfelfing decade. The ages rhyme, which is presumably why the recognition moments already cluster there (4).
-- *Seventeen or eighteen, the young man.* Act Three onward: St. Gallen, the Spinners, the false ending, Mallorca. Old enough that his walk matching his father's is a fact rather than a metaphor.
+- *Sixteen, the teenager.* Act Two and the long journey, Munich among it.
+- *Twenty-eight, the young man.* Act Three onward: St. Gallen, the Spinners, the false ending, Mallorca.
+
+**Why this spread and not a tighter one.**
+1. *Munich becomes the crossing, and the crossing becomes literal.* Canon already has the father at seventeen falling in love on those streets (4). Ari walks in at sixteen. The two timelines running in opposite directions (2.2) now actually meet, at nearly the same age, in the same city, and neither of them says so. That is worth being exact about; it is structure, not decoration.
+2. *Three silhouettes that read at isometric distance.* Seven against twelve is a difference an overhead camera cannot sell. Seven, sixteen and twenty-eight are child, teenager and man, distinguishable in one frame at any zoom. This is the practical argument and it is the one that saves art.
+3. *The game ends at the age of the person making it.* Ari finishes at roughly where Max stands now: grown, having built something of his own, able to weave his father in rather than demand him back. The private detail behind that number, meeting his girlfriend at twenty-seven in Munich, never needs to appear anywhere in the game. It is fuel, not content. Point 1 is load-bearing and should stay on the nose; point 3 works precisely by staying off it.
 
 **Where the changes fall (DRAFT, and the first one is the good one).**
-- Seven to twelve at the Act One climax, which is already LOCKED: Ari dies to Das Nadelkissen, a mittelgroße hand catches his, one frame of the grin, "Nur so gehts". He goes down a small child and gets up five years older. Nothing is explained and nobody remarks on it. The price of the walk (above) has just been charged for the first time somewhere the player can feel it.
-- Twelve to seventeen on the way into St. Gallen, because nobody stands in front of the Fates as a child.
+- Seven to sixteen at the Act One climax, which is already LOCKED: Ari dies to Das Nadelkissen, a mittelgroße hand catches his, one frame of the grin, "Nur so gehts". He goes down a small child and gets up a teenager. Nine years in a single frame, nothing explained and nobody remarking on it. The price of the walk has just been charged where the player can feel it, and the wider the jump the harder it lands.
+- Sixteen to twenty-eight on the way out of Munich and into St. Gallen, because nobody stands in front of the Fates as a child.
 - Note: the catch is also the first of the three permitted sayings of the phrase (2.3), so the first age change and the first "Nur so gehts" land in the same beat.
+
+**Should the older ages be saved for another game?** No, and the series north star (3) is the reason: each game is one thread, one person, and the series is the cloth. It divides by family member, not by life stage, so the next game is Mama's gold rather than Ari at thirty-five. This game holds Ari's whole arc.
+
+**If more chapters arrive (DRAFT).** Length is open (9), so if the chapter count grows the structure can take a fourth or fifth age. Each one costs a full body, animation set and equipment pass, so they get added only when a chapter genuinely earns one, never to smooth the curve.
 
 Production note, honestly: three ages means three bodies, three animation sets and three renderings of the equipment, which is the most expensive art in the game. Mitigation for MAR to weigh: let the wardrobe carry across ages by re-proportioning rather than re-drawing wherever it can, and reserve bespoke per-age art for the regional signature sets (5.10). Whatever the answer, it is decided before any character art is made, not after.
 It also settles the child Ari note in Der See and RT-011: those are Ari at the beginning, which is exactly where that reference belongs.
@@ -116,7 +125,10 @@ GAP: The no to the name story as a warm in game joke? Door open: her real voice 
 
 LOCKED: Ari's travel cat, named for the real cat of the years 8 to 18. She is the herald of the visions: ears turn first, tail goes still, eyes fixed on empty air half a second before he arrives. No UI, no chime, just the cat. In the final act the visions stop and Cindy stops staring, and the player feels the absence through the animal. On the Mallorca shore she stares one last long time at the water, at the boy, then turns and looks at Ari. End.
 The cats of the world: the Horgen hub house keeps three cats, one of them called Zoey.
-DRAFT, now that Ari ages (3): Cindy ages with him. He goes from seven to about eighteen, and the real Cindy was the cat of the years eight to eighteen, so the span is very nearly the same one. By the Mallorca shore she is an old cat, and the last long look she gives the water, the boy, and then Ari, is an old animal's. Small art cost, large return.
+DRAFT, and the three ages (3) force the question: Ari now travels from seven to twenty-eight, which is twenty-one years, and no ordinary cat survives that. Two ways out, and the second is better.
+- Cindy ages and dies before the end. Devastating, and almost certainly too much grief for a game that already has all it needs, and it breaks the LOCKED final beat where she looks at the water, the boy, and then Ari.
+- The ageing is a charge rather than elapsed time, which is what the price draft in 3 already says. The journey may last a season while Ari alone is billed twenty-one years for it. Cindy stays an ordinary cat of ordinary years and barely changes at all.
+Recommended: the second, because it makes the cost visible by contrast. Everything around him stays as it was, the cat included, and Ari is the only thing being spent. It is also why nobody in the world remarks on it: to them, no time has passed.
 GAP (RT-016, open commission): what the real Cindy looked like, markings, colors, how she sat.
 
 ### The sisters
@@ -135,7 +147,7 @@ GAP: Two or three recurring road faces, if any. Real candidates now on file from
 - **Horgen (hub).** The house reweaves room by room. Every seventh day: Brotzeit, sauna, the radio Krimi with collectible episodes. Three cats. LOCKED.
 - **London (full chapter).** The great exchange where people trade away years of their own thread. His thread pulled too tight here: ambition, pressure, missing her. The young man's love letters are found in this act. Fibre: wool, confirmed by the loop wool sheep.
 - **USA / Whittier (postcard).** Bright, glossy, synthetic thread that cannot hold a pattern. The single memory: him writing home, missing her. Tender, not mocking. LOCKED as postcard.
-- **Munich (full chapter, LOCKED).** The only station with two sets of footprints: the father at seventeen falling in love on these streets, and the boy who came at eight without him, the Gräfelfing decade, ages 8 to 18, the Cindy years. Recognition moments cluster here; Ari's own memories begin bleeding into the father's stations. Includes the Gräfelfing meadow vignette: barefoot summer grass, the first Nadel sting, where it really happened. GAP: one more specific Munich scene.
+- **Munich (full chapter, LOCKED).** The station with the most footprints in it, now three sets: Ari arriving at sixteen (3), the father at seventeen falling in love on these streets, and the boy who came at eight without him, the Gräfelfing decade, ages 8 to 18, the Cindy years. Recognition moments cluster here; Ari's own memories begin bleeding into the father's stations. Includes the Gräfelfing meadow vignette: barefoot summer grass, the first Nadel sting, where it really happened. GAP: one more specific Munich scene.
 - **St. Gallen (chapter, compact).** The Institut on its hill, seat of the Spinners. Act three begins. Fibre: nettle, high in the Alps.
 - **Chile (full chapter).** The Honorarkonsul years. Canon correction from Mama's account (4.6): this was never an expat posting. He was Chile's honorary consul *in Zürich*, sworn in with a great reception at the FIFA building, and Chile itself was a journey they were invited on. So the station stands on two grounds: the Zürich receptions, where a man who tied nations together made two and three new friends an evening, and the invited journey south that ends in the Atacama. This also settles the placement question: the station overlaps the lake years rather than sitting outside them. Fibre: alpaca; the Atacama as the grey slack thread desert. The full-chapter pick is now earned, this station has more real material than any except Der See. GAP: the years. She gave the story before the timeline.
 - **Málaga (chapter).** The schoolyard by the sea, flamenco guitar over soul. Fibre: silk.
@@ -337,12 +349,12 @@ From Max:
 - [ ] The promise to yourself (1)
 - [ ] The Fates when met (2.1)
 - [x] Ari ages across the game (3)
-- [x] Ageing: three discrete ages, seven, twelve, seventeen or eighteen (3)
+- [x] Ageing: three discrete ages, seven, sixteen, twenty-eight (3)
 - [ ] Ari: what does he have that Max does not? (3) The inherited set is done; this is the one that decides whether he is a character or a portrait
 - [ ] Recognition list (5.4)
 - [x] The two Reed states: colour, light, sound and time all answered (5.2)
 - [x] Hyperfocus collapses time inside the general slowness (5.2)
-- [ ] Does Cindy visibly age alongside Ari? (3, small)
+- [ ] Cindy and the twenty-one years: confirm the ageing is a charge, not elapsed time (3)
 - [ ] Morning stringing scene (5.2)
 - [ ] Death: confirm the visible frayed cloak as the floor (5.6)
 - [ ] Ability fantasies, three per fibre tree, in Max's words (5.7)
