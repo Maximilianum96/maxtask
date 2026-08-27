@@ -165,10 +165,21 @@ What the change buys and costs (note, so future Max knows why it moved): the two
 
 *The dose.* The fibre wears out, which is already LOCKED, so being strung has a duration and then it ends. Stringing mid fight is therefore not a mode switch but a dose: one fibre, a while, then it wears off, and the carry limit is how many are left.
 
-**GAP, and it is now narrow.** Colour and light are richly covered above, and the shape of a room comes through by implication. Two axes are still blank and only Max can fill them:
-- *Sound.* How many layers are in the mix in each state, what can and cannot be heard, what the music does. Does unstrung hear everything at once, including things far away, and does strung narrow to one clear line and lose something in the narrowing?
-- *Time.* How it moves in each. Hyperfocus presumably eats hours without noticing; what does strung time feel like next to that, metronomic and even, or something else?
-Raw voice memo is perfect.
+**Sound (LOCKED, Max, August 2026).**
+- *Unstrung:* everything at once. Many layers with no priority in the mix, so a conversation across the square arrives as loud as the one in front of him, and the music carries more voices than the ear can sort. He can hear the whole map.
+- *Strung:* the mix narrows to one clear line, and something is lost in the narrowing. The far things drop away.
+
+Consequence worth building on: sound is the second channel for doors that never appear. Unstrung, the player hears a thing two rooms off and goes to find it. Strung, that sound simply never reaches them, and again the game never mentions what they walked past.
+
+**Time (LOCKED, Max, August 2026).** Unstrung, time goes slower. Strung, on the dose, time goes faster.
+
+DRAFT for how that reads in play: the whole scene changes tempo, Ari included, rather than the world slowing around a player who stays quick. Unstrung is a slow, wide, viscous tempo where everything takes longer, his own weaves included, and there is room to look and to think. Strung is brisk and narrow: he and the world both move quicker, more happens per minute, and there is less room to decide.
+
+That gives the pair its cleanest shape. **Unstrung is the perception state, strung is the execution state**, and an hour of strung play covers more ground than an hour of unstrung play. Which is the lived thing reproduced exactly: more gets done, and the time is gone.
+
+DRAFT, optional, and only if the day cycle earns it: strung burns daylight faster. You get more done and the day is over sooner. True, and possibly too sharp to use.
+
+GAP, small, and the last one in this section: hyperfocus sits in the unstrung column and classically collapses time rather than dragging it. Proposal, which makes both readings stronger rather than choosing between them: unstrung time drags by default, and hyperfocus is the exception inside it, where the grey tunnel closes and the hours vanish without being felt. The slowness is what makes that collapse land. Confirm or correct.
 GAP: the morning stringing as a thirty second scene.
 
 ### 5.3 Visions (LOCKED)
@@ -299,7 +310,8 @@ From Max:
 - [ ] Ari: does he age across the game? (3) Everything about his combat read waits on this
 - [ ] Ari: three traits deliberately his own (3)
 - [ ] Recognition list (5.4)
-- [ ] The two Reed states: sound and time only, the rest is written up in 5.2 from Max's own description
+- [x] The two Reed states: colour, light, sound and time all answered (5.2)
+- [ ] Hyperfocus and time: does it collapse inside the general slowness? (5.2, small)
 - [ ] Morning stringing scene (5.2)
 - [ ] Death: confirm the visible frayed cloak as the floor (5.6)
 - [ ] Ability fantasies, three per fibre tree, in Max's words (5.7)
